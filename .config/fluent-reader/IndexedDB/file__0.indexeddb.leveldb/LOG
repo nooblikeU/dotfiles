@@ -1,0 +1,3 @@
+2022/08/08-03:08:49.645 1afd92 Reusing MANIFEST /home/john/.config/fluent-reader/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2022/08/08-03:08:49.645 1afd92 Recovering log #24
+2022/08/08-03:08:49.661 1afd92 Reusing old log /home/john/.config/fluent-reader/IndexedDB/file__0.indexeddb.leveldb/000024.log 

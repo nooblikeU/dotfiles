@@ -1,0 +1,15 @@
+
+[Default Applications]
+.mp4=mpv.desktop
+.mkv=mpv.desktop
+.png=sxiv.desktop
+.jpg=sxiv.desktop
+mp4=mpv.desktop
+mkv=mpv.desktop
+jpg=sxiv.desktop
+png=sxiv.desktop
+image/png=sxiv.desktop
+image/jpg=sxiv.desktop
+image/jpeg=sxiv.desktop
+video/x-matroska=mpv.desktop
+video/mp4=mpv.desktop

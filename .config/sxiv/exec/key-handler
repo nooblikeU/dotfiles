@@ -1,0 +1,15 @@
+#!/bin/bash
+
+while read file
+do
+	case "$1" in
+	"w")
+		chwal $file
+	;;
+	"d")
+		rm -rf $file
+	;;
+
+	esac
+done
+

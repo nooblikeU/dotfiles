@@ -1,0 +1,5 @@
+super + p
+	 sxiv -t ~/Pictures
+
+super + t 
+	twitsh
