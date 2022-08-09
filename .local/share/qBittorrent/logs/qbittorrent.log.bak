@@ -1,0 +1,559 @@
+(N) 2022-07-26T10:58:36 - qBittorrent v4.4.3.1 started
+(N) 2022-07-26T10:58:36 - Using config directory: /home/john/.config/qBittorrent
+(I) 2022-07-26T10:58:39 - Trying to listen on: 0.0.0.0:26832,[::]:26832
+(N) 2022-07-26T10:58:39 - Peer ID: -qB4431-
+(N) 2022-07-26T10:58:39 - HTTP User-Agent is 'qBittorrent/4.4.3.1'
+(I) 2022-07-26T10:58:39 - DHT support [ON]
+(I) 2022-07-26T10:58:39 - Local Peer Discovery support [ON]
+(I) 2022-07-26T10:58:39 - PeX support [ON]
+(I) 2022-07-26T10:58:39 - Anonymous mode [OFF]
+(I) 2022-07-26T10:58:39 - Encryption support [ON]
+(I) 2022-07-26T10:58:39 - UPnP / NAT-PMP support [ON]
+(W) 2022-07-26T10:58:39 - Couldn't load IP geolocation database. Reason: No such file or directory
+(I) 2022-07-26T10:58:39 - Successfully listening on IP: 127.0.0.1, port: TCP/26832
+(I) 2022-07-26T10:58:39 - Successfully listening on IP: 127.0.0.1, port: UTP/26832
+(I) 2022-07-26T10:58:39 - Successfully listening on IP: 192.168.0.2, port: TCP/26832
+(I) 2022-07-26T10:58:39 - Successfully listening on IP: 192.168.0.2, port: UTP/26832
+(I) 2022-07-26T10:58:39 - Successfully listening on IP: 10.5.0.2, port: TCP/26832
+(I) 2022-07-26T10:58:39 - Successfully listening on IP: 10.5.0.2, port: UTP/26832
+(I) 2022-07-26T10:58:47 - Detected external IP: 5.253.207.220
+(N) 2022-07-26T10:58:51 - Options saved.
+(I) 2022-07-26T10:58:51 - Trying to listen on: nordlynx:26832
+(I) 2022-07-26T10:59:12 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Jul 1 00:23:19 2022.
+(I) 2022-07-26T10:59:12 - Successfully updated IP geolocation database.
+(C) 2022-07-26T11:01:15 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(C) 2022-07-26T11:01:15 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(C) 2022-07-26T11:01:15 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(C) 2022-07-26T11:01:15 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(I) 2022-07-26T11:08:10 - UPnP / NAT-PMP support [OFF]
+(N) 2022-07-26T11:10:41 - qBittorrent v4.4.3.1 started
+(N) 2022-07-26T11:10:41 - Using config directory: /home/john/.config/qBittorrent
+(I) 2022-07-26T11:10:41 - Trying to listen on: nordlynx:26832
+(N) 2022-07-26T11:10:41 - Peer ID: -qB4431-
+(N) 2022-07-26T11:10:41 - HTTP User-Agent is 'qBittorrent/4.4.3.1'
+(I) 2022-07-26T11:10:41 - DHT support [ON]
+(I) 2022-07-26T11:10:41 - Local Peer Discovery support [ON]
+(I) 2022-07-26T11:10:41 - PeX support [ON]
+(I) 2022-07-26T11:10:41 - Anonymous mode [OFF]
+(I) 2022-07-26T11:10:41 - Encryption support [ON]
+(I) 2022-07-26T11:10:41 - UPnP / NAT-PMP support [ON]
+(I) 2022-07-26T11:10:41 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Jul 1 00:23:19 2022.
+(I) 2022-07-26T11:10:42 - Successfully listening on IP: 10.5.0.2, port: TCP/26832
+(I) 2022-07-26T11:10:42 - Successfully listening on IP: 10.5.0.2, port: UTP/26832
+(I) 2022-07-26T11:10:44 - Detected external IP: 5.253.207.220
+(N) 2022-07-26T11:11:09 - '[Airota&VCB-Studio] Gochuumon wa Usagi Desuka? BLOOM / ご注文はうさぎですか? BLOOM 10-bit 1080p HEVC BDRip [Fin]' added to download list.
+(C) 2022-07-26T11:13:17 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(C) 2022-07-26T11:13:17 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(I) 2022-07-26T12:14:39 - Successfully listening on IP: 10.5.0.2, port: TCP/26832
+(I) 2022-07-26T12:14:39 - Successfully listening on IP: 10.5.0.2, port: UTP/26832
+(I) 2022-07-26T12:15:12 - Detected external IP: 86.48.13.75
+(C) 2022-07-26T12:17:15 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(C) 2022-07-26T12:17:15 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(N) 2022-07-27T07:58:52 - qBittorrent v4.4.3.1 started
+(N) 2022-07-27T07:58:52 - Using config directory: /home/john/.config/qBittorrent
+(I) 2022-07-27T07:58:52 - Trying to listen on: nordlynx:26832
+(N) 2022-07-27T07:58:52 - Peer ID: -qB4431-
+(N) 2022-07-27T07:58:52 - HTTP User-Agent is 'qBittorrent/4.4.3.1'
+(I) 2022-07-27T07:58:52 - DHT support [ON]
+(I) 2022-07-27T07:58:52 - Local Peer Discovery support [ON]
+(I) 2022-07-27T07:58:52 - PeX support [ON]
+(I) 2022-07-27T07:58:52 - Anonymous mode [OFF]
+(I) 2022-07-27T07:58:52 - Encryption support [ON]
+(I) 2022-07-27T07:58:52 - UPnP / NAT-PMP support [ON]
+(I) 2022-07-27T07:58:52 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Jul 1 00:23:19 2022.
+(I) 2022-07-27T07:58:52 - Successfully listening on IP: 10.5.0.2, port: TCP/26832
+(I) 2022-07-27T07:58:52 - Successfully listening on IP: 10.5.0.2, port: UTP/26832
+(N) 2022-07-27T07:58:52 - '[Airota&VCB-Studio] Gochuumon wa Usagi Desuka? BLOOM / ご注文はうさぎですか? BLOOM 10-bit 1080p HEVC BDRip [Fin]' restored.
+(C) 2022-07-27T07:58:52 - File sizes mismatch for torrent '[Airota&VCB-Studio] Gochuumon wa Usagi Desuka? BLOOM / ご注文はうさぎですか? BLOOM 10-bit 1080p HEVC BDRip [Fin]'. Cannot proceed further.
+(N) 2022-07-27T07:58:54 - '[Cerberus] Code Geass Movies I Koudou + II Handou + III Oudou + Fukkatsu no Lelouch [BD 1080p HEVC 10-bit OPUS] [Dual-Audio]' added to download list.
+(I) 2022-07-27T07:58:59 - Detected external IP: 103.137.15.28
+(N) 2022-07-27T07:59:02 - '[Airota&VCB-Studio] Gochuumon wa Usagi Desuka? BLOOM / ご注文はうさぎですか? BLOOM 10-bit 1080p HEVC BDRip [Fin]' was removed from the transfer list.
+(C) 2022-07-27T08:01:28 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(C) 2022-07-27T08:01:28 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(I) 2022-07-27T08:22:38 - UPnP / NAT-PMP support [OFF]
+(N) 2022-07-28T10:36:12 - qBittorrent v4.4.3.1 started
+(N) 2022-07-28T10:36:12 - Using config directory: /home/john/.config/qBittorrent
+(I) 2022-07-28T10:36:12 - Trying to listen on: nordlynx:26832
+(N) 2022-07-28T10:36:12 - Peer ID: -qB4431-
+(N) 2022-07-28T10:36:12 - HTTP User-Agent is 'qBittorrent/4.4.3.1'
+(I) 2022-07-28T10:36:12 - DHT support [ON]
+(I) 2022-07-28T10:36:12 - Local Peer Discovery support [ON]
+(I) 2022-07-28T10:36:12 - PeX support [ON]
+(I) 2022-07-28T10:36:12 - Anonymous mode [OFF]
+(I) 2022-07-28T10:36:12 - Encryption support [ON]
+(I) 2022-07-28T10:36:12 - UPnP / NAT-PMP support [ON]
+(I) 2022-07-28T10:36:12 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Jul 1 00:23:19 2022.
+(W) 2022-07-28T10:36:12 - System tray icon is not available, retrying...
+(I) 2022-07-28T10:36:12 - Successfully listening on IP: 10.5.0.2, port: TCP/26832
+(I) 2022-07-28T10:36:12 - Successfully listening on IP: 10.5.0.2, port: UTP/26832
+(N) 2022-07-28T10:36:12 - '[Cerberus] Code Geass Movies I Koudou + II Handou + III Oudou + Fukkatsu no Lelouch [BD 1080p HEVC 10-bit OPUS] [Dual-Audio]' restored.
+(I) 2022-07-28T10:36:13 - Detected external IP: 194.110.84.109
+(W) 2022-07-28T10:36:14 - System tray icon is not available, retrying...
+(W) 2022-07-28T10:36:16 - System tray icon is not available, retrying...
+(I) 2022-07-28T10:36:17 - UPnP / NAT-PMP support [OFF]
+(N) 2022-07-31T02:49:00 - qBittorrent v4.4.3.1 started
+(N) 2022-07-31T02:49:00 - Using config directory: /home/john/.config/qBittorrent
+(I) 2022-07-31T02:49:00 - Trying to listen on: nordlynx:26832
+(N) 2022-07-31T02:49:00 - Peer ID: -qB4431-
+(N) 2022-07-31T02:49:00 - HTTP User-Agent is 'qBittorrent/4.4.3.1'
+(I) 2022-07-31T02:49:00 - DHT support [ON]
+(I) 2022-07-31T02:49:00 - Local Peer Discovery support [ON]
+(I) 2022-07-31T02:49:00 - PeX support [ON]
+(I) 2022-07-31T02:49:00 - Anonymous mode [OFF]
+(I) 2022-07-31T02:49:00 - Encryption support [ON]
+(I) 2022-07-31T02:49:00 - UPnP / NAT-PMP support [ON]
+(I) 2022-07-31T02:49:00 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Jul 1 00:23:19 2022.
+(W) 2022-07-31T02:49:00 - System tray icon is not available, retrying...
+(I) 2022-07-31T02:49:00 - Successfully listening on IP: 10.5.0.2, port: TCP/26832
+(I) 2022-07-31T02:49:00 - Successfully listening on IP: 10.5.0.2, port: UTP/26832
+(N) 2022-07-31T02:49:00 - '[Cerberus] Code Geass Movies I Koudou + II Handou + III Oudou + Fukkatsu no Lelouch [BD 1080p HEVC 10-bit OPUS] [Dual-Audio]' restored.
+(I) 2022-07-31T02:49:01 - Detected external IP: 23.230.46.175
+(W) 2022-07-31T02:49:02 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:04 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:06 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:08 - System tray icon is not available, retrying...
+(N) 2022-07-31T02:49:09 - '[2022/07/27] - Canan/にゅうかなんす☆+。 ASMR (canan8181.com)' added to download list.
+(W) 2022-07-31T02:49:10 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:12 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:14 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:16 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:18 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:20 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:22 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:24 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:26 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:28 - System tray icon is not available, retrying...
+(N) 2022-07-31T02:49:30 - qBittorrent v4.4.3.1 started
+(N) 2022-07-31T02:49:30 - Using config directory: /home/john/.config/qBittorrent
+(W) 2022-07-31T02:49:30 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:32 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:34 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:36 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:38 - System tray icon is not available, retrying...
+(W) 2022-07-31T02:49:40 - System tray icon is still not available after retries. Disabling it.
+(N) 2022-07-31T02:49:44 - '[22-07-23] - Macoto ASMR (rnqq.jp)' added to download list.
+(N) 2022-07-31T02:51:34 - qBittorrent v4.4.3.1 started
+(N) 2022-07-31T02:51:34 - Using config directory: /home/john/.config/qBittorrent
+(C) 2022-07-31T02:51:36 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(C) 2022-07-31T02:51:36 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(N) 2022-07-31T02:51:38 - '[22-07-10] - Canan ASMR' added to download list.
+(I) 2022-07-31T05:16:42 - Successfully listening on IP: 10.5.0.2, port: TCP/26832
+(I) 2022-07-31T05:16:42 - Successfully listening on IP: 10.5.0.2, port: UTP/26832
+(I) 2022-07-31T05:16:56 - Detected external IP: 103.137.12.196
+(C) 2022-07-31T05:19:18 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(C) 2022-07-31T05:19:18 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(I) 2022-07-31T05:20:18 - UPnP / NAT-PMP support [OFF]
+(N) 2022-07-31T05:25:58 - qBittorrent v4.4.3.1 started
+(N) 2022-07-31T05:25:58 - Using config directory: /home/john/.config/qBittorrent
+(I) 2022-07-31T05:25:58 - Trying to listen on: nordlynx:26832
+(N) 2022-07-31T05:25:58 - Peer ID: -qB4431-
+(N) 2022-07-31T05:25:58 - HTTP User-Agent is 'qBittorrent/4.4.3.1'
+(I) 2022-07-31T05:25:58 - DHT support [ON]
+(I) 2022-07-31T05:25:58 - Local Peer Discovery support [ON]
+(I) 2022-07-31T05:25:58 - PeX support [ON]
+(I) 2022-07-31T05:25:58 - Anonymous mode [OFF]
+(I) 2022-07-31T05:25:58 - Encryption support [ON]
+(I) 2022-07-31T05:25:58 - UPnP / NAT-PMP support [ON]
+(I) 2022-07-31T05:25:58 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Jul 1 00:23:19 2022.
+(I) 2022-07-31T05:25:58 - Successfully listening on IP: 10.5.0.2, port: TCP/26832
+(I) 2022-07-31T05:25:58 - Successfully listening on IP: 10.5.0.2, port: UTP/26832
+(N) 2022-07-31T05:25:58 - '[Cerberus] Code Geass Movies I Koudou + II Handou + III Oudou + Fukkatsu no Lelouch [BD 1080p HEVC 10-bit OPUS] [Dual-Audio]' restored.
+(N) 2022-07-31T05:25:58 - '[2022/07/27] - Canan/にゅうかなんす☆+。 ASMR (canan8181.com)' restored.
+(N) 2022-07-31T05:25:58 - '[22-07-10] - Canan ASMR' restored.
+(N) 2022-07-31T05:25:58 - '[22-07-23] - Macoto ASMR (rnqq.jp)' restored.
+(I) 2022-07-31T05:26:00 - Detected external IP: 103.137.12.196
+(N) 2022-07-31T05:26:03 - '+++ FC2-PPV-3046937 【個人】他人棒２本刺しで利息回収。旦那は何も知らずにギャンブル三昧か。巨乳を揺らしながらあきらめ無抵抗な奥様の膣奥に白濁液を注ぎこむ' added to download list.
+(C) 2022-07-31T05:28:34 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(C) 2022-07-31T05:28:34 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(N) 2022-07-31T05:28:50 - qBittorrent v4.4.3.1 started
+(N) 2022-07-31T05:28:50 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-07-31T05:29:14 - 'FC2-PPV-3052444' added to download list.
+(N) 2022-07-31T05:29:23 - qBittorrent v4.4.3.1 started
+(N) 2022-07-31T05:29:23 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-07-31T05:29:26 - 'FC2-PPV-3036172' added to download list.
+(N) 2022-07-31T05:29:37 - qBittorrent v4.4.3.1 started
+(N) 2022-07-31T05:29:37 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-07-31T05:29:37 - Tracker 'udp://open.stealth.si:80/announce' was added to torrent '+++ FC2-PPV-3046937 【個人】他人棒２本刺しで利息回収。旦那は何も知らずにギャンブル三昧か。巨乳を揺らしながらあきらめ無抵抗な奥様の膣奥に白濁液を注ぎこむ'
+(N) 2022-07-31T05:29:37 - Tracker 'udp://tracker.opentrackr.org:1337/announce' was added to torrent '+++ FC2-PPV-3046937 【個人】他人棒２本刺しで利息回収。旦那は何も知らずにギャンブル三昧か。巨乳を揺らしながらあきらめ無抵抗な奥様の膣奥に白濁液を注ぎこむ'
+(N) 2022-07-31T05:29:37 - Tracker 'udp://exodus.desync.com:6969/announce' was added to torrent '+++ FC2-PPV-3046937 【個人】他人棒２本刺しで利息回収。旦那は何も知らずにギャンブル三昧か。巨乳を揺らしながらあきらめ無抵抗な奥様の膣奥に白濁液を注ぎこむ'
+(N) 2022-07-31T05:29:37 - Tracker 'udp://tracker.torrent.eu.org:451/announce' was added to torrent '+++ FC2-PPV-3046937 【個人】他人棒２本刺しで利息回収。旦那は何も知らずにギャンブル三昧か。巨乳を揺らしながらあきらめ無抵抗な奥様の膣奥に白濁液を注ぎこむ'
+(N) 2022-07-31T05:29:42 - qBittorrent v4.4.3.1 started
+(N) 2022-07-31T05:29:42 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-07-31T05:29:45 - '+++ FC2-PPV-3020137 【個人】借金の肩代わりに姉を差し出すクズ男。嫌がりながらも他人棒に感じる姉の中出しまでを見届けるクズな弟でも助けたいと思うのだろうか。。。' added to download list.
+(N) 2022-07-31T05:29:50 - qBittorrent v4.4.3.1 started
+(N) 2022-07-31T05:29:50 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-07-31T05:29:54 - '+++ FC2-PPV-3010858 【個人】優しそうな旦那を尻目に、遊ぶ金欲しさに融資を受ける美人チャラ妻　他人棒に食らいつき堪能。膣奥へ中出しするも満足げな表情を。。' added to download list.
+(I) 2022-07-31T12:26:03 - UPnP / NAT-PMP support [OFF]
+(N) 2022-08-02T11:41:22 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T11:41:22 - Using config directory: /home/john/.config/qBittorrent
+(I) 2022-08-02T11:41:22 - Trying to listen on: nordlynx:26832
+(N) 2022-08-02T11:41:22 - Peer ID: -qB4431-
+(N) 2022-08-02T11:41:22 - HTTP User-Agent is 'qBittorrent/4.4.3.1'
+(I) 2022-08-02T11:41:22 - DHT support [ON]
+(I) 2022-08-02T11:41:22 - Local Peer Discovery support [ON]
+(I) 2022-08-02T11:41:22 - PeX support [ON]
+(I) 2022-08-02T11:41:22 - Anonymous mode [OFF]
+(I) 2022-08-02T11:41:22 - Encryption support [ON]
+(I) 2022-08-02T11:41:22 - UPnP / NAT-PMP support [ON]
+(I) 2022-08-02T11:41:22 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Fri Jul 1 00:23:19 2022.
+(I) 2022-08-02T11:41:22 - Successfully listening on IP: 10.5.0.2, port: TCP/26832
+(I) 2022-08-02T11:41:22 - Successfully listening on IP: 10.5.0.2, port: UTP/26832
+(N) 2022-08-02T11:41:22 - '+++ FC2-PPV-3010858 【個人】優しそうな旦那を尻目に、遊ぶ金欲しさに融資を受ける美人チャラ妻　他人棒に食らいつき堪能。膣奥へ中出しするも満足げな表情を。。' restored.
+(N) 2022-08-02T11:41:22 - '+++ FC2-PPV-3020137 【個人】借金の肩代わりに姉を差し出すクズ男。嫌がりながらも他人棒に感じる姉の中出しまでを見届けるクズな弟でも助けたいと思うのだろうか。。。' restored.
+(N) 2022-08-02T11:41:22 - 'FC2-PPV-3052444' restored.
+(C) 2022-08-02T11:41:22 - File sizes mismatch for torrent 'FC2-PPV-3052444'. Cannot proceed further.
+(N) 2022-08-02T11:41:22 - '[Cerberus] Code Geass Movies I Koudou + II Handou + III Oudou + Fukkatsu no Lelouch [BD 1080p HEVC 10-bit OPUS] [Dual-Audio]' restored.
+(N) 2022-08-02T11:41:22 - '[2022/07/27] - Canan/にゅうかなんす☆+。 ASMR (canan8181.com)' restored.
+(N) 2022-08-02T11:41:22 - '+++ FC2-PPV-3046937 【個人】他人棒２本刺しで利息回収。旦那は何も知らずにギャンブル三昧か。巨乳を揺らしながらあきらめ無抵抗な奥様の膣奥に白濁液を注ぎこむ' restored.
+(N) 2022-08-02T11:41:22 - '[22-07-10] - Canan ASMR' restored.
+(N) 2022-08-02T11:41:22 - 'FC2-PPV-3036172' restored.
+(N) 2022-08-02T11:41:22 - '[22-07-23] - Macoto ASMR (rnqq.jp)' restored.
+(I) 2022-08-02T11:41:23 - Detected external IP: 103.137.12.125
+(I) 2022-08-02T11:41:39 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Mon Aug 1 00:36:07 2022.
+(I) 2022-08-02T11:41:40 - Successfully updated IP geolocation database.
+(N) 2022-08-02T11:41:58 - 'ATID-521' added to download list.
+(N) 2022-08-02T11:42:07 - 'FC2-PPV-3052444' was removed from the transfer list.
+(N) 2022-08-02T11:42:34 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T11:42:34 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T11:42:40 - '+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの' added to download list.
+(N) 2022-08-02T11:43:05 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T11:43:05 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T11:43:09 - 'IPX-836' added to download list.
+(N) 2022-08-02T11:43:39 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T11:43:39 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T11:43:42 - '+++ [HD] PRED-305 PREMIUM V.I.P 3大メーカー専属美女共演ハーレム 240分Special 山岸逢花 岬ななみ 藍芽みずき' added to download list.
+(C) 2022-08-02T11:43:58 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(C) 2022-08-02T11:43:58 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(N) 2022-08-02T11:44:48 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T11:44:48 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T11:44:53 - 'Oni Chichi Mega Pack' added to download list.
+(N) 2022-08-02T11:58:40 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T11:58:40 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T11:58:46 - 'Rare, Classic & Uncensored Hentai Collection v1.8 [HEVC Edition]' added to download list.
+(N) 2022-08-02T12:02:29 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:02:29 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:02:33 - '+++ [FHD] SSIS-469 幼なじみ姉妹の妹の方と付き合った僕の事を実はずっと好きだった姉が嫉妬に狂ってノーブラおっぱい誘惑 小宵こなん' added to download list.
+(N) 2022-08-02T12:02:38 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:02:38 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:02:40 - '+++ [FHD] SSIS-441 M男クンのお宅に‘小宵こなん’が緊急突撃！ アドリブ全開で痴女っちゃうHcupお姉さんの1日6発射精ドキュメント' added to download list.
+(N) 2022-08-02T12:02:46 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:02:46 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:02:49 - '+++ [FHD] SSIS-414 小宵こなん10変化 極上オナニーサポート' added to download list.
+(N) 2022-08-02T12:02:53 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:02:53 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:03:05 - '+++ [FHD] REBD-647 Konan2 Happy glamorous island・小宵こなん' added to download list.
+(N) 2022-08-02T12:03:37 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:03:37 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:03:40 - '+++ [FHD] SSIS-388 アナタの五感を刺激する小宵こなんのシコシコサポートラグジュアリー 脳をエロスで満たす6つの癒され勃起シチュエーション' added to download list.
+(N) 2022-08-02T12:23:42 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:23:42 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:24:46 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:24:46 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:27:29 - 'Rare, Classic & Uncensored Hentai Collection v1.8 [HEVC Edition]' was removed from the transfer list and hard disk.
+(N) 2022-08-02T12:29:46 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:29:46 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:29:49 - '+++ [FHD] MIDV-127 禁欲接吻エクスタシー 一ヶ月間焦らされて…ヨダレ汁も生ツバも飲み干す暴走ベロキスFUCK 岬野まなつ' added to download list.
+(W) 2022-08-02T12:45:11 - File error alert. Torrent: "Oni Chichi Mega Pack". File: "/mnt/ntfs/Torrents/Sukebei/Oni Chichi Mega Pack/Oni Chichi Vacation/[HH] Oni Chichi Kakeeshon - 01 [778E0276].mp4". Reason: Oni Chichi Mega Pack file_open (/mnt/ntfs/Torrents/Sukebei/Oni Chichi Mega Pack/Oni Chichi Vacation/[HH] Oni Chichi Kakeeshon - 01 [778E0276].mp4) error: No such file or directory
+(W) 2022-08-02T12:45:24 - File error alert. Torrent: "Oni Chichi Mega Pack". File: "/mnt/ntfs/Torrents/Sukebei/Oni Chichi Mega Pack/Oni Chichi 2/[Shikkaku] Onichichi 2 - 02 [DVD][BBD04926].mkv". Reason: Oni Chichi Mega Pack file_open (/mnt/ntfs/Torrents/Sukebei/Oni Chichi Mega Pack/Oni Chichi 2/[Shikkaku] Onichichi 2 - 02 [DVD][BBD04926].mkv) error: No such file or directory
+(W) 2022-08-02T12:45:43 - File error alert. Torrent: "Oni Chichi Mega Pack". File: "/mnt/ntfs/Torrents/Sukebei/Oni Chichi Mega Pack/Oni Chichi 2/[Shikkaku] Onichichi 2 - 01 [DVD][E7AEE021].mkv". Reason: Oni Chichi Mega Pack file_open (/mnt/ntfs/Torrents/Sukebei/Oni Chichi Mega Pack/Oni Chichi 2/[Shikkaku] Onichichi 2 - 01 [DVD][E7AEE021].mkv) error: No such file or directory
+(W) 2022-08-02T12:48:51 - File error alert. Torrent: "ATID-521". File: "/mnt/ntfs/Torrents/Sukebei/ATID-521/hhd800.com@ATID-521.mp4". Reason: ATID-521 file_open (/mnt/ntfs/Torrents/Sukebei/ATID-521/hhd800.com@ATID-521.mp4) error: No such file or directory
+(W) 2022-08-02T12:48:53 - File error alert. Torrent: "ATID-521". File: "/mnt/ntfs/Torrents/Sukebei/ATID-521/hhd800.com@ATID-521.mp4". Reason: ATID-521 file_open (/mnt/ntfs/Torrents/Sukebei/ATID-521/hhd800.com@ATID-521.mp4) error: No such file or directory
+(W) 2022-08-02T12:48:54 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_write (/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4) error: No space left on device
+(W) 2022-08-02T12:48:59 - File error alert. Torrent: "ATID-521". File: "/mnt/ntfs/Torrents/Sukebei/ATID-521/hhd800.com@ATID-521.mp4". Reason: ATID-521 file_open (/mnt/ntfs/Torrents/Sukebei/ATID-521/hhd800.com@ATID-521.mp4) error: No such file or directory
+(W) 2022-08-02T12:49:08 - File error alert. Torrent: "ATID-521". File: "/mnt/ntfs/Torrents/Sukebei/ATID-521/hhd800.com@ATID-521.mp4". Reason: ATID-521 file_write (/mnt/ntfs/Torrents/Sukebei/ATID-521/hhd800.com@ATID-521.mp4) error: No space left on device
+(N) 2022-08-02T12:49:43 - 'Oni Chichi Mega Pack' was removed from the transfer list and hard disk.
+(W) 2022-08-02T12:49:56 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4) error: Input/output error
+(W) 2022-08-02T12:50:02 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4) error: Input/output error
+(W) 2022-08-02T12:50:06 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4) error: Input/output error
+(W) 2022-08-02T12:50:10 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4) error: Input/output error
+(W) 2022-08-02T12:50:12 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4) error: Input/output error
+(W) 2022-08-02T12:50:16 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4) error: Input/output error
+(W) 2022-08-02T12:50:20 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4) error: Input/output error
+(W) 2022-08-02T12:50:22 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4) error: Input/output error
+(W) 2022-08-02T12:50:26 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4) error: Input/output error
+(W) 2022-08-02T12:50:29 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4) error: Input/output error
+(W) 2022-08-02T12:50:30 - File error alert. Torrent: "+++ [HD] PRED-305 PREMIUM V.I.P 3大メーカー専属美女共演ハーレム 240分Special 山岸逢花 岬ななみ 藍芽みずき". File: "/mnt/ntfs/Torrents/Sukebei/PRED-305/hhd800.com@PRED-305.mp4". Reason: PRED-305 file_open (/mnt/ntfs/Torrents/Sukebei/PRED-305/hhd800.com@PRED-305.mp4) error: No such file or directory
+(W) 2022-08-02T12:50:35 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4) error: Input/output error
+(W) 2022-08-02T12:50:41 - File error alert. Torrent: "IPX-836". File: "/mnt/ntfs/Torrents/Sukebei/IPX-836/hhd800.com@IPX-836.mp4". Reason: IPX-836 file_write (/mnt/ntfs/Torrents/Sukebei/IPX-836/hhd800.com@IPX-836.mp4) error: No space left on device
+(N) 2022-08-02T12:52:13 - Enqueued to move "+++ [HD] PRED-305 PREMIUM V.I.P 3大メーカー専属美女共演ハーレム 240分Special 山岸逢花 岬ななみ 藍芽みずき" from "/mnt/ntfs/Torrents/Sukebei" to "/home/john/Downloads".
+(N) 2022-08-02T12:52:13 - Moving "+++ [HD] PRED-305 PREMIUM V.I.P 3大メーカー専属美女共演ハーレム 240分Special 山岸逢花 岬ななみ 藍芽みずき" to "/home/john/Downloads"...
+(N) 2022-08-02T12:52:13 - "+++ [HD] PRED-305 PREMIUM V.I.P 3大メーカー専属美女共演ハーレム 240分Special 山岸逢花 岬ななみ 藍芽みずき" is successfully moved to "/home/john/Downloads".
+(N) 2022-08-02T12:52:42 - Enqueued to move "ATID-521" from "/mnt/ntfs/Torrents/Sukebei" to "/home/john/Downloads".
+(N) 2022-08-02T12:52:42 - Moving "ATID-521" to "/home/john/Downloads"...
+(N) 2022-08-02T12:52:42 - "ATID-521" is successfully moved to "/home/john/Downloads".
+(W) 2022-08-02T12:52:45 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4) error: Input/output error
+(W) 2022-08-02T12:52:49 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/mnt/ntfs/Torrents/Sukebei/SOAN-077/hhd800.com@SOAN-077.mp4) error: Input/output error
+(N) 2022-08-02T12:52:49 - Enqueued to move "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの" from "/mnt/ntfs/Torrents/Sukebei" to "/home/john/Downloads".
+(N) 2022-08-02T12:52:49 - Moving "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの" to "/home/john/Downloads"...
+(N) 2022-08-02T12:52:49 - "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの" is successfully moved to "/home/john/Downloads".
+(W) 2022-08-02T12:52:51 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4) error: End of file
+(W) 2022-08-02T12:52:53 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4) error: End of file
+(W) 2022-08-02T12:52:54 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4) error: End of file
+(W) 2022-08-02T12:52:57 - File error alert. Torrent: "+++ [HD] PRED-305 PREMIUM V.I.P 3大メーカー専属美女共演ハーレム 240分Special 山岸逢花 岬ななみ 藍芽みずき". File: "/home/john/Downloads/PRED-305/hhd800.com@PRED-305.mp4". Reason: PRED-305 file_open (/home/john/Downloads/PRED-305/hhd800.com@PRED-305.mp4) error: No such file or directory
+(W) 2022-08-02T12:52:58 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4) error: End of file
+(W) 2022-08-02T12:53:01 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4) error: End of file
+(W) 2022-08-02T12:53:03 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4) error: End of file
+(W) 2022-08-02T12:53:03 - File error alert. Torrent: "+++ [HD] PRED-305 PREMIUM V.I.P 3大メーカー専属美女共演ハーレム 240分Special 山岸逢花 岬ななみ 藍芽みずき". File: "/home/john/Downloads/PRED-305/hhd800.com@PRED-305.mp4". Reason: PRED-305 file_open (/home/john/Downloads/PRED-305/hhd800.com@PRED-305.mp4) error: No such file or directory
+(W) 2022-08-02T12:53:05 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4) error: End of file
+(W) 2022-08-02T12:53:07 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4) error: End of file
+(W) 2022-08-02T12:53:09 - File error alert. Torrent: "+++ [HD] PRED-305 PREMIUM V.I.P 3大メーカー専属美女共演ハーレム 240分Special 山岸逢花 岬ななみ 藍芽みずき". File: "/home/john/Downloads/PRED-305/hhd800.com@PRED-305.mp4". Reason: PRED-305 file_write (/home/john/Downloads/PRED-305/hhd800.com@PRED-305.mp4) error: No space left on device
+(W) 2022-08-02T12:53:10 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4) error: End of file
+(W) 2022-08-02T12:53:10 - File error alert. Torrent: "+++ [HD] PRED-305 PREMIUM V.I.P 3大メーカー専属美女共演ハーレム 240分Special 山岸逢花 岬ななみ 藍芽みずき". File: "/home/john/Downloads/PRED-305/hhd800.com@PRED-305.mp4". Reason: PRED-305 file_read (/home/john/Downloads/PRED-305/hhd800.com@PRED-305.mp4) error: Input/output error
+(W) 2022-08-02T12:53:17 - File error alert. Torrent: "ATID-521". File: "/home/john/Downloads/ATID-521/hhd800.com@ATID-521.mp4". Reason: ATID-521 file_read (/home/john/Downloads/ATID-521/hhd800.com@ATID-521.mp4) error: End of file
+(W) 2022-08-02T12:53:19 - File error alert. Torrent: "ATID-521". File: "/home/john/Downloads/ATID-521/hhd800.com@ATID-521.mp4". Reason: ATID-521 file_read (/home/john/Downloads/ATID-521/hhd800.com@ATID-521.mp4) error: End of file
+(W) 2022-08-02T12:53:21 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4) error: End of file
+(W) 2022-08-02T12:53:21 - File error alert. Torrent: "+++ [HD] PRED-305 PREMIUM V.I.P 3大メーカー専属美女共演ハーレム 240分Special 山岸逢花 岬ななみ 藍芽みずき". File: "/home/john/Downloads/PRED-305/hhd800.com@PRED-305.mp4". Reason: PRED-305 file_write (/home/john/Downloads/PRED-305/hhd800.com@PRED-305.mp4) error: No space left on device
+(W) 2022-08-02T12:53:23 - File error alert. Torrent: "ATID-521". File: "/home/john/Downloads/ATID-521/hhd800.com@ATID-521.mp4". Reason: ATID-521 file_read (/home/john/Downloads/ATID-521/hhd800.com@ATID-521.mp4) error: End of file
+(W) 2022-08-02T12:53:23 - File error alert. Torrent: "+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの". File: "/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4". Reason: SOAN-077 file_read (/home/john/Downloads/SOAN-077/hhd800.com@SOAN-077.mp4) error: Input/output error
+(N) 2022-08-02T12:53:27 - '+++ [HD] PRED-305 PREMIUM V.I.P 3大メーカー専属美女共演ハーレム 240分Special 山岸逢花 岬ななみ 藍芽みずき' was removed from the transfer list and hard disk.
+(N) 2022-08-02T12:53:27 - 'IPX-836' was removed from the transfer list and hard disk.
+(N) 2022-08-02T12:53:27 - '+++ [FHD] SOAN-077 豆腐メンタルなのに初アナル 鬱展開のち尊み秀吉イキっ 地雷×2穴アナルすこ 岬ひなの' was removed from the transfer list and hard disk.
+(N) 2022-08-02T12:53:27 - 'ATID-521' was removed from the transfer list and hard disk.
+(N) 2022-08-02T12:53:27 - '+++ [FHD] REBD-647 Konan2 Happy glamorous island・小宵こなん' was removed from the transfer list and hard disk.
+(N) 2022-08-02T12:53:27 - '+++ [FHD] MIDV-127 禁欲接吻エクスタシー 一ヶ月間焦らされて…ヨダレ汁も生ツバも飲み干す暴走ベロキスFUCK 岬野まなつ' was removed from the transfer list and hard disk.
+(N) 2022-08-02T12:53:27 - '+++ [FHD] SSIS-441 M男クンのお宅に‘小宵こなん’が緊急突撃！ アドリブ全開で痴女っちゃうHcupお姉さんの1日6発射精ドキュメント' was removed from the transfer list and hard disk.
+(N) 2022-08-02T12:53:27 - '+++ [FHD] SSIS-469 幼なじみ姉妹の妹の方と付き合った僕の事を実はずっと好きだった姉が嫉妬に狂ってノーブラおっぱい誘惑 小宵こなん' was removed from the transfer list and hard disk.
+(N) 2022-08-02T12:53:27 - '+++ [FHD] SSIS-414 小宵こなん10変化 極上オナニーサポート' was removed from the transfer list and hard disk.
+(I) 2022-08-02T12:53:30 - UPnP / NAT-PMP support [OFF]
+(N) 2022-08-02T12:55:51 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:55:51 - Using config directory: /home/john/.config/qBittorrent
+(I) 2022-08-02T12:55:51 - Trying to listen on: nordlynx:26832
+(N) 2022-08-02T12:55:51 - Peer ID: -qB4431-
+(N) 2022-08-02T12:55:51 - HTTP User-Agent is 'qBittorrent/4.4.3.1'
+(I) 2022-08-02T12:55:51 - DHT support [ON]
+(I) 2022-08-02T12:55:51 - Local Peer Discovery support [ON]
+(I) 2022-08-02T12:55:51 - PeX support [ON]
+(I) 2022-08-02T12:55:51 - Anonymous mode [OFF]
+(I) 2022-08-02T12:55:51 - Encryption support [ON]
+(I) 2022-08-02T12:55:51 - UPnP / NAT-PMP support [ON]
+(I) 2022-08-02T12:55:51 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Mon Aug 1 00:36:07 2022.
+(I) 2022-08-02T12:55:51 - Successfully listening on IP: 10.5.0.2, port: TCP/26832
+(I) 2022-08-02T12:55:51 - Successfully listening on IP: 10.5.0.2, port: UTP/26832
+(N) 2022-08-02T12:55:51 - '+++ FC2-PPV-3010858 【個人】優しそうな旦那を尻目に、遊ぶ金欲しさに融資を受ける美人チャラ妻　他人棒に食らいつき堪能。膣奥へ中出しするも満足げな表情を。。' restored.
+(N) 2022-08-02T12:55:51 - '+++ FC2-PPV-3020137 【個人】借金の肩代わりに姉を差し出すクズ男。嫌がりながらも他人棒に感じる姉の中出しまでを見届けるクズな弟でも助けたいと思うのだろうか。。。' restored.
+(N) 2022-08-02T12:55:51 - '[Cerberus] Code Geass Movies I Koudou + II Handou + III Oudou + Fukkatsu no Lelouch [BD 1080p HEVC 10-bit OPUS] [Dual-Audio]' restored.
+(N) 2022-08-02T12:55:51 - '[2022/07/27] - Canan/にゅうかなんす☆+。 ASMR (canan8181.com)' restored.
+(N) 2022-08-02T12:55:51 - '+++ FC2-PPV-3046937 【個人】他人棒２本刺しで利息回収。旦那は何も知らずにギャンブル三昧か。巨乳を揺らしながらあきらめ無抵抗な奥様の膣奥に白濁液を注ぎこむ' restored.
+(N) 2022-08-02T12:55:51 - '+++ [FHD] SSIS-388 アナタの五感を刺激する小宵こなんのシコシコサポートラグジュアリー 脳をエロスで満たす6つの癒され勃起シチュエーション' restored.
+(N) 2022-08-02T12:55:51 - '[22-07-10] - Canan ASMR' restored.
+(N) 2022-08-02T12:55:51 - 'FC2-PPV-3036172' restored.
+(N) 2022-08-02T12:55:51 - '[22-07-23] - Macoto ASMR (rnqq.jp)' restored.
+(I) 2022-08-02T12:55:55 - Detected external IP: 103.137.12.125
+(N) 2022-08-02T12:56:01 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:56:01 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:56:33 - '+++ [FHD] ATID-521 生意気な女上司も二人きりになると簡単に堕ちる（笑） 僕だけのフェラチオペットにしてやった。 岬ななみ' added to download list.
+(N) 2022-08-02T12:56:38 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:56:38 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:56:44 - 'SOAN-077' added to download list.
+(N) 2022-08-02T12:56:59 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:56:59 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:57:11 - 'DASS-012-C_X1080X' added to download list.
+(N) 2022-08-02T12:57:32 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:57:32 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:57:34 - '+++ [FHD] BBAN-374 女教師レズビアン雌奴● ～悪魔のような美少女の微笑みマゾ調教～ 乙アリス 岬あずさ' added to download list.
+(N) 2022-08-02T12:57:57 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:57:57 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:58:00 - 'Oni Chichi Mega Pack' added to download list.
+(C) 2022-08-02T12:58:27 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(C) 2022-08-02T12:58:27 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(N) 2022-08-02T12:58:44 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:58:44 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:58:46 - '+++ [FHD] MIDV-127 禁欲接吻エクスタシー 一ヶ月間焦らされて…ヨダレ汁も生ツバも飲み干す暴走ベロキスFUCK 岬野まなつ' added to download list.
+(N) 2022-08-02T12:58:54 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:58:54 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:59:00 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T12:59:00 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T12:59:03 - '+++ [FHD] IPX-470 綺麗なお姉さんと布団の中で二人きり…ねっとり感じ合う密着スロー中出し性交 岬ななみ' added to download list.
+(N) 2022-08-02T13:02:51 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T13:02:51 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T13:03:05 - 'SSIS-469' added to download list.
+(N) 2022-08-02T13:03:08 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T13:03:08 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T13:03:10 - '+++ [FHD] SSIS-441 M男クンのお宅に‘小宵こなん’が緊急突撃！ アドリブ全開で痴女っちゃうHcupお姉さんの1日6発射精ドキュメント' added to download list.
+(N) 2022-08-02T13:03:13 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T13:03:13 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T13:03:15 - '+++ [FHD] SSIS-414 小宵こなん10変化 極上オナニーサポート' added to download list.
+(N) 2022-08-02T13:03:28 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T13:03:28 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T13:03:31 - '+++ [FHD] REBD-647 Konan2 Happy glamorous island・小宵こなん' added to download list.
+(N) 2022-08-02T13:03:35 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T13:03:35 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T13:03:35 - Tracker 'udp://open.stealth.si:80/announce' was added to torrent '+++ [FHD] SSIS-388 アナタの五感を刺激する小宵こなんのシコシコサポートラグジュアリー 脳をエロスで満たす6つの癒され勃起シチュエーション'
+(N) 2022-08-02T13:03:35 - Tracker 'udp://tracker.opentrackr.org:1337/announce' was added to torrent '+++ [FHD] SSIS-388 アナタの五感を刺激する小宵こなんのシコシコサポートラグジュアリー 脳をエロスで満たす6つの癒され勃起シチュエーション'
+(N) 2022-08-02T13:03:35 - Tracker 'udp://exodus.desync.com:6969/announce' was added to torrent '+++ [FHD] SSIS-388 アナタの五感を刺激する小宵こなんのシコシコサポートラグジュアリー 脳をエロスで満たす6つの癒され勃起シチュエーション'
+(N) 2022-08-02T13:03:35 - Tracker 'udp://tracker.torrent.eu.org:451/announce' was added to torrent '+++ [FHD] SSIS-388 アナタの五感を刺激する小宵こなんのシコシコサポートラグジュアリー 脳をエロスで満たす6つの癒され勃起シチュエーション'
+(N) 2022-08-02T13:03:43 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T13:03:43 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T13:03:46 - '+++ [FHDC] SSIS-335 見た目もセックスも最高な愛人とハメ狂うお泊まり温泉不倫旅行 小宵こなん' added to download list.
+(N) 2022-08-02T13:22:19 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T13:22:19 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T13:22:32 - '[Uncensored] [1080p] [BOOTLEG] Broken Things Risa Plus The Animation' added to download list.
+(N) 2022-08-02T13:22:59 - qBittorrent v4.4.3.1 started
+(N) 2022-08-02T13:22:59 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-02T13:23:02 - 'Broken Things Risa THE ANIMATION (コワレモノ:璃沙 THE ANIMATION) [UNCEN][DLrip 1920x1080] - English softsubs / Kowaremono: Risa The Animation' added to download list.
+(W) 2022-08-02T17:05:39 - File error alert. Torrent: "Broken Things Risa THE ANIMATION (コワレモノ:璃沙 THE ANIMATION) [UNCEN][DLrip 1920x1080] - English softsubs / Kowaremono: Risa The Animation". File: "/mnt/ntfs/Torrents/Sukebei/Kowaremono Risa The Animation (HH) [UNCEN][DLrip 1920x1080 Hi10P][1156F7D4].mkv". Reason: Kowaremono Risa The Animation (HH) [UNCEN][DLrip 1920x1080 Hi10P][1156F7D4].mkv file_open (/mnt/ntfs/Torrents/Sukebei/Kowaremono Risa The Animation (HH) [UNCEN][DLrip 1920x1080 Hi10P][1156F7D4].mkv) error: No space left on device
+(I) 2022-08-03T00:02:03 - UPnP / NAT-PMP support [OFF]
+(N) 2022-08-03T00:02:15 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T00:02:15 - Using config directory: /home/john/.config/qBittorrent
+(I) 2022-08-03T00:02:15 - Trying to listen on: nordlynx:26832
+(N) 2022-08-03T00:02:15 - Peer ID: -qB4431-
+(N) 2022-08-03T00:02:15 - HTTP User-Agent is 'qBittorrent/4.4.3.1'
+(I) 2022-08-03T00:02:15 - DHT support [ON]
+(I) 2022-08-03T00:02:15 - Local Peer Discovery support [ON]
+(I) 2022-08-03T00:02:15 - PeX support [ON]
+(I) 2022-08-03T00:02:15 - Anonymous mode [OFF]
+(I) 2022-08-03T00:02:15 - Encryption support [ON]
+(I) 2022-08-03T00:02:15 - UPnP / NAT-PMP support [ON]
+(I) 2022-08-03T00:02:15 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Mon Aug 1 00:36:07 2022.
+(I) 2022-08-03T00:02:15 - Successfully listening on IP: 10.5.0.2, port: TCP/26832
+(I) 2022-08-03T00:02:15 - Successfully listening on IP: 10.5.0.2, port: UTP/26832
+(N) 2022-08-03T00:02:15 - '+++ [FHD] ATID-521 生意気な女上司も二人きりになると簡単に堕ちる（笑） 僕だけのフェラチオペットにしてやった。 岬ななみ' restored.
+(N) 2022-08-03T00:02:15 - '+++ FC2-PPV-3010858 【個人】優しそうな旦那を尻目に、遊ぶ金欲しさに融資を受ける美人チャラ妻　他人棒に食らいつき堪能。膣奥へ中出しするも満足げな表情を。。' restored.
+(N) 2022-08-03T00:02:15 - '+++ [FHD] SSIS-441 M男クンのお宅に‘小宵こなん’が緊急突撃！ アドリブ全開で痴女っちゃうHcupお姉さんの1日6発射精ドキュメント' restored.
+(N) 2022-08-03T00:02:15 - '+++ FC2-PPV-3020137 【個人】借金の肩代わりに姉を差し出すクズ男。嫌がりながらも他人棒に感じる姉の中出しまでを見届けるクズな弟でも助けたいと思うのだろうか。。。' restored.
+(N) 2022-08-03T00:02:15 - '+++ [FHD] REBD-647 Konan2 Happy glamorous island・小宵こなん' restored.
+(N) 2022-08-03T00:02:15 - '+++ [FHD] SSIS-414 小宵こなん10変化 極上オナニーサポート' restored.
+(N) 2022-08-03T00:02:15 - '[Cerberus] Code Geass Movies I Koudou + II Handou + III Oudou + Fukkatsu no Lelouch [BD 1080p HEVC 10-bit OPUS] [Dual-Audio]' restored.
+(N) 2022-08-03T00:02:15 - '[2022/07/27] - Canan/にゅうかなんす☆+。 ASMR (canan8181.com)' restored.
+(N) 2022-08-03T00:02:15 - 'Oni Chichi Mega Pack' restored.
+(N) 2022-08-03T00:02:15 - 'SOAN-077' restored.
+(N) 2022-08-03T00:02:15 - '+++ FC2-PPV-3046937 【個人】他人棒２本刺しで利息回収。旦那は何も知らずにギャンブル三昧か。巨乳を揺らしながらあきらめ無抵抗な奥様の膣奥に白濁液を注ぎこむ' restored.
+(N) 2022-08-03T00:02:15 - '+++ [FHD] SSIS-388 アナタの五感を刺激する小宵こなんのシコシコサポートラグジュアリー 脳をエロスで満たす6つの癒され勃起シチュエーション' restored.
+(N) 2022-08-03T00:02:15 - '[22-07-10] - Canan ASMR' restored.
+(N) 2022-08-03T00:02:15 - '+++ [FHD] MIDV-127 禁欲接吻エクスタシー 一ヶ月間焦らされて…ヨダレ汁も生ツバも飲み干す暴走ベロキスFUCK 岬野まなつ' restored.
+(N) 2022-08-03T00:02:15 - '[Uncensored] [1080p] [BOOTLEG] Broken Things Risa Plus The Animation' restored.
+(N) 2022-08-03T00:02:15 - '+++ [FHD] BBAN-374 女教師レズビアン雌奴● ～悪魔のような美少女の微笑みマゾ調教～ 乙アリス 岬あずさ' restored.
+(N) 2022-08-03T00:02:15 - '+++ [FHD] IPX-470 綺麗なお姉さんと布団の中で二人きり…ねっとり感じ合う密着スロー中出し性交 岬ななみ' restored.
+(N) 2022-08-03T00:02:15 - 'DASS-012-C_X1080X' restored.
+(N) 2022-08-03T00:02:15 - 'FC2-PPV-3036172' restored.
+(N) 2022-08-03T00:02:15 - 'SSIS-469' restored.
+(N) 2022-08-03T00:02:15 - '[22-07-23] - Macoto ASMR (rnqq.jp)' restored.
+(N) 2022-08-03T00:02:15 - '+++ [FHDC] SSIS-335 見た目もセックスも最高な愛人とハメ狂うお泊まり温泉不倫旅行 小宵こなん' restored.
+(N) 2022-08-03T00:02:15 - 'Broken Things Risa THE ANIMATION (コワレモノ:璃沙 THE ANIMATION) [UNCEN][DLrip 1920x1080] - English softsubs / Kowaremono: Risa The Animation' restored.
+(I) 2022-08-03T00:02:16 - Detected external IP: 103.137.12.125
+(I) 2022-08-03T00:02:29 - UPnP / NAT-PMP support [OFF]
+(N) 2022-08-03T00:03:36 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T00:03:36 - Using config directory: /home/john/.config/qBittorrent
+(I) 2022-08-03T00:03:36 - Trying to listen on: nordlynx:26832
+(N) 2022-08-03T00:03:36 - Peer ID: -qB4431-
+(N) 2022-08-03T00:03:36 - HTTP User-Agent is 'qBittorrent/4.4.3.1'
+(I) 2022-08-03T00:03:36 - DHT support [ON]
+(I) 2022-08-03T00:03:36 - Local Peer Discovery support [ON]
+(I) 2022-08-03T00:03:36 - PeX support [ON]
+(I) 2022-08-03T00:03:36 - Anonymous mode [OFF]
+(I) 2022-08-03T00:03:36 - Encryption support [ON]
+(I) 2022-08-03T00:03:36 - UPnP / NAT-PMP support [ON]
+(I) 2022-08-03T00:03:36 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Mon Aug 1 00:36:07 2022.
+(I) 2022-08-03T00:03:36 - Successfully listening on IP: 10.5.0.2, port: TCP/26832
+(I) 2022-08-03T00:03:36 - Successfully listening on IP: 10.5.0.2, port: UTP/26832
+(N) 2022-08-03T00:03:37 - '+++ [FHD] ATID-521 生意気な女上司も二人きりになると簡単に堕ちる（笑） 僕だけのフェラチオペットにしてやった。 岬ななみ' restored.
+(N) 2022-08-03T00:03:37 - '+++ FC2-PPV-3010858 【個人】優しそうな旦那を尻目に、遊ぶ金欲しさに融資を受ける美人チャラ妻　他人棒に食らいつき堪能。膣奥へ中出しするも満足げな表情を。。' restored.
+(N) 2022-08-03T00:03:37 - '+++ [FHD] SSIS-441 M男クンのお宅に‘小宵こなん’が緊急突撃！ アドリブ全開で痴女っちゃうHcupお姉さんの1日6発射精ドキュメント' restored.
+(N) 2022-08-03T00:03:37 - '+++ FC2-PPV-3020137 【個人】借金の肩代わりに姉を差し出すクズ男。嫌がりながらも他人棒に感じる姉の中出しまでを見届けるクズな弟でも助けたいと思うのだろうか。。。' restored.
+(N) 2022-08-03T00:03:37 - '+++ [FHD] REBD-647 Konan2 Happy glamorous island・小宵こなん' restored.
+(N) 2022-08-03T00:03:37 - '+++ [FHD] SSIS-414 小宵こなん10変化 極上オナニーサポート' restored.
+(N) 2022-08-03T00:03:37 - '[Cerberus] Code Geass Movies I Koudou + II Handou + III Oudou + Fukkatsu no Lelouch [BD 1080p HEVC 10-bit OPUS] [Dual-Audio]' restored.
+(N) 2022-08-03T00:03:37 - '[2022/07/27] - Canan/にゅうかなんす☆+。 ASMR (canan8181.com)' restored.
+(N) 2022-08-03T00:03:37 - 'Oni Chichi Mega Pack' restored.
+(N) 2022-08-03T00:03:37 - 'SOAN-077' restored.
+(N) 2022-08-03T00:03:37 - '+++ FC2-PPV-3046937 【個人】他人棒２本刺しで利息回収。旦那は何も知らずにギャンブル三昧か。巨乳を揺らしながらあきらめ無抵抗な奥様の膣奥に白濁液を注ぎこむ' restored.
+(N) 2022-08-03T00:03:37 - '+++ [FHD] SSIS-388 アナタの五感を刺激する小宵こなんのシコシコサポートラグジュアリー 脳をエロスで満たす6つの癒され勃起シチュエーション' restored.
+(N) 2022-08-03T00:03:37 - '[22-07-10] - Canan ASMR' restored.
+(N) 2022-08-03T00:03:37 - '+++ [FHD] MIDV-127 禁欲接吻エクスタシー 一ヶ月間焦らされて…ヨダレ汁も生ツバも飲み干す暴走ベロキスFUCK 岬野まなつ' restored.
+(N) 2022-08-03T00:03:37 - '[Uncensored] [1080p] [BOOTLEG] Broken Things Risa Plus The Animation' restored.
+(N) 2022-08-03T00:03:37 - '+++ [FHD] BBAN-374 女教師レズビアン雌奴● ～悪魔のような美少女の微笑みマゾ調教～ 乙アリス 岬あずさ' restored.
+(N) 2022-08-03T00:03:37 - '+++ [FHD] IPX-470 綺麗なお姉さんと布団の中で二人きり…ねっとり感じ合う密着スロー中出し性交 岬ななみ' restored.
+(N) 2022-08-03T00:03:37 - 'DASS-012-C_X1080X' restored.
+(N) 2022-08-03T00:03:37 - 'FC2-PPV-3036172' restored.
+(N) 2022-08-03T00:03:37 - 'SSIS-469' restored.
+(N) 2022-08-03T00:03:37 - '[22-07-23] - Macoto ASMR (rnqq.jp)' restored.
+(N) 2022-08-03T00:03:37 - '+++ [FHDC] SSIS-335 見た目もセックスも最高な愛人とハメ狂うお泊まり温泉不倫旅行 小宵こなん' restored.
+(N) 2022-08-03T00:03:37 - 'Broken Things Risa THE ANIMATION (コワレモノ:璃沙 THE ANIMATION) [UNCEN][DLrip 1920x1080] - English softsubs / Kowaremono: Risa The Animation' restored.
+(I) 2022-08-03T00:03:37 - Detected external IP: 103.137.12.125
+(C) 2022-08-03T00:06:12 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(C) 2022-08-03T00:06:12 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(N) 2022-08-03T02:06:53 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T02:06:53 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-03T02:06:57 - '[Anime Time] Rebuild of Evangelion (Movies) [1.11+2.22+3.33+3.0-1.11] [Dual Audio][1080p][HEVC 10bit x265][AAC][Multi Sub] (Evangelion Movies) [Batch]' added to download list.
+(N) 2022-08-03T04:50:06 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T04:50:06 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-03T04:50:21 - 'SSIS-468' added to download list.
+(N) 2022-08-03T04:52:05 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T04:52:05 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-03T04:52:24 - 'BBTU-040' added to download list.
+(N) 2022-08-03T04:53:36 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T04:53:36 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-03T04:53:58 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T04:53:58 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-03T04:55:22 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T04:55:22 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-03T04:56:10 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T04:56:10 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-03T04:56:44 - '+++ MIDV-099 引退 Gカップ完璧ボディAVで最後の性交 高橋しょう子' added to download list.
+(I) 2022-08-03T05:43:11 - UPnP / NAT-PMP support [OFF]
+(N) 2022-08-03T05:43:17 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T05:43:17 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-03T05:43:28 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T05:43:28 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-03T05:43:39 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T05:43:39 - Using config directory: /home/john/.config/qBittorrent
+(I) 2022-08-03T05:43:39 - Trying to listen on: nordlynx:26832
+(N) 2022-08-03T05:43:39 - Peer ID: -qB4431-
+(N) 2022-08-03T05:43:39 - HTTP User-Agent is 'qBittorrent/4.4.3.1'
+(I) 2022-08-03T05:43:39 - DHT support [ON]
+(I) 2022-08-03T05:43:39 - Local Peer Discovery support [ON]
+(I) 2022-08-03T05:43:39 - PeX support [ON]
+(I) 2022-08-03T05:43:39 - Anonymous mode [OFF]
+(I) 2022-08-03T05:43:39 - Encryption support [ON]
+(I) 2022-08-03T05:43:39 - UPnP / NAT-PMP support [ON]
+(I) 2022-08-03T05:43:39 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Mon Aug 1 00:36:07 2022.
+(I) 2022-08-03T05:43:39 - Successfully listening on IP: 10.5.0.2, port: TCP/26832
+(I) 2022-08-03T05:43:39 - Successfully listening on IP: 10.5.0.2, port: UTP/26832
+(N) 2022-08-03T05:43:39 - 'SSIS-468' restored.
+(N) 2022-08-03T05:43:39 - '+++ [FHD] ATID-521 生意気な女上司も二人きりになると簡単に堕ちる（笑） 僕だけのフェラチオペットにしてやった。 岬ななみ' restored.
+(N) 2022-08-03T05:43:39 - '+++ FC2-PPV-3010858 【個人】優しそうな旦那を尻目に、遊ぶ金欲しさに融資を受ける美人チャラ妻　他人棒に食らいつき堪能。膣奥へ中出しするも満足げな表情を。。' restored.
+(N) 2022-08-03T05:43:39 - 'BBTU-040' restored.
+(N) 2022-08-03T05:43:39 - '+++ [FHD] SSIS-441 M男クンのお宅に‘小宵こなん’が緊急突撃！ アドリブ全開で痴女っちゃうHcupお姉さんの1日6発射精ドキュメント' restored.
+(N) 2022-08-03T05:43:39 - '+++ FC2-PPV-3020137 【個人】借金の肩代わりに姉を差し出すクズ男。嫌がりながらも他人棒に感じる姉の中出しまでを見届けるクズな弟でも助けたいと思うのだろうか。。。' restored.
+(N) 2022-08-03T05:43:39 - '+++ [FHD] REBD-647 Konan2 Happy glamorous island・小宵こなん' restored.
+(N) 2022-08-03T05:43:39 - '+++ [FHD] SSIS-414 小宵こなん10変化 極上オナニーサポート' restored.
+(N) 2022-08-03T05:43:39 - '[Cerberus] Code Geass Movies I Koudou + II Handou + III Oudou + Fukkatsu no Lelouch [BD 1080p HEVC 10-bit OPUS] [Dual-Audio]' restored.
+(N) 2022-08-03T05:43:39 - '[Anime Time] Rebuild of Evangelion (Movies) [1.11+2.22+3.33+3.0-1.11] [Dual Audio][1080p][HEVC 10bit x265][AAC][Multi Sub] (Evangelion Movies) [Batch]' restored.
+(N) 2022-08-03T05:43:39 - '[2022/07/27] - Canan/にゅうかなんす☆+。 ASMR (canan8181.com)' restored.
+(N) 2022-08-03T05:43:39 - 'Oni Chichi Mega Pack' restored.
+(N) 2022-08-03T05:43:39 - 'SOAN-077' restored.
+(N) 2022-08-03T05:43:39 - '+++ FC2-PPV-3046937 【個人】他人棒２本刺しで利息回収。旦那は何も知らずにギャンブル三昧か。巨乳を揺らしながらあきらめ無抵抗な奥様の膣奥に白濁液を注ぎこむ' restored.
+(N) 2022-08-03T05:43:39 - '+++ [FHD] SSIS-388 アナタの五感を刺激する小宵こなんのシコシコサポートラグジュアリー 脳をエロスで満たす6つの癒され勃起シチュエーション' restored.
+(N) 2022-08-03T05:43:39 - '[22-07-10] - Canan ASMR' restored.
+(N) 2022-08-03T05:43:39 - '+++ [FHD] MIDV-127 禁欲接吻エクスタシー 一ヶ月間焦らされて…ヨダレ汁も生ツバも飲み干す暴走ベロキスFUCK 岬野まなつ' restored.
+(N) 2022-08-03T05:43:39 - '[Uncensored] [1080p] [BOOTLEG] Broken Things Risa Plus The Animation' restored.
+(N) 2022-08-03T05:43:39 - '+++ [FHD] BBAN-374 女教師レズビアン雌奴● ～悪魔のような美少女の微笑みマゾ調教～ 乙アリス 岬あずさ' restored.
+(N) 2022-08-03T05:43:39 - '+++ [FHD] IPX-470 綺麗なお姉さんと布団の中で二人きり…ねっとり感じ合う密着スロー中出し性交 岬ななみ' restored.
+(N) 2022-08-03T05:43:39 - 'DASS-012-C_X1080X' restored.
+(N) 2022-08-03T05:43:39 - 'FC2-PPV-3036172' restored.
+(N) 2022-08-03T05:43:39 - 'SSIS-469' restored.
+(N) 2022-08-03T05:43:39 - '[22-07-23] - Macoto ASMR (rnqq.jp)' restored.
+(N) 2022-08-03T05:43:39 - '+++ MIDV-099 引退 Gカップ完璧ボディAVで最後の性交 高橋しょう子' restored.
+(N) 2022-08-03T05:43:39 - '+++ [FHDC] SSIS-335 見た目もセックスも最高な愛人とハメ狂うお泊まり温泉不倫旅行 小宵こなん' restored.
+(N) 2022-08-03T05:43:39 - 'Broken Things Risa THE ANIMATION (コワレモノ:璃沙 THE ANIMATION) [UNCEN][DLrip 1920x1080] - English softsubs / Kowaremono: Risa The Animation' restored.
+(I) 2022-08-03T05:43:40 - Detected external IP: 103.137.12.125
+(N) 2022-08-03T05:44:18 - Options saved.
+(N) 2022-08-03T05:44:27 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T05:44:27 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-03T05:44:30 - '+++ [HD] MIDV-040 大嫌いな絶倫義父に危険日狙って孕むまで何度も何度も中出しされて… 高橋しょう子' added to download list.
+(N) 2022-08-03T05:44:41 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T05:44:41 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-03T05:44:44 - '+++ [HD] MIDV-023 媚薬漬け監禁拘束潮吹きアクメ 愛する妹のために…絶倫オヤジの激ピストンをいつでも受け入れる即ズボ身代わり肉便器 高橋しょう子' added to download list.
+(N) 2022-08-03T05:46:05 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T05:46:05 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-03T05:46:08 - '+++ [HD] REAL-788 女子校生孕ませレ●プ中出し20連発 奏音かのん' added to download list.
+(C) 2022-08-03T05:46:15 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(C) 2022-08-03T05:46:15 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP[10.5.0.2]: no router found
+(N) 2022-08-03T05:47:38 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T05:47:38 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-03T05:47:40 - '[JAV] [Uncensored] MKBD-S108 KIRARI 108 女たちの卑褻行為でイキまくり傑作選 : 総勢16名大橋未久,水城奈緒,北川瞳,立川理恵,秋野千尋,小西まりえ,櫻木梨乃,佐伯ゆきな,鈴森汐那,広瀬奈々美,水野葵,RAY,沖ひとみ,波多野結衣,真野ゆりあ,小宮涼菜 [1080p]' added to download list.
+(N) 2022-08-03T05:49:03 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T05:49:03 - Using config directory: /home/john/.config/qBittorrent
+(N) 2022-08-03T05:49:05 - '+++ [FHD] STARS-671 イ●スタで人気のランジェリーモデルが、オジサンカメラマンとのスキャンダル不倫性交。 鈴原みらん' added to download list.
+(N) 2022-08-03T05:49:46 - qBittorrent v4.4.3.1 started
+(N) 2022-08-03T05:49:47 - '+++ [FHD] STARS-681 不倫逆NTR チクビ責めが大好きな先輩女子アナに家にも帰してもらえず延々射精させられまくった愛妻家の僕 瀬乃みなみ' added to download list.
