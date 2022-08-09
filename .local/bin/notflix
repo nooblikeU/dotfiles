@@ -30,16 +30,20 @@ def main():
     choicesub = int(input("Do you want use subtitle (1) Yes (2) No (3) Select another movie: "))
 
     cmd = []
-
-    if choicesub == 1:
-        path = input("Put the path of subtitle: ")
-        cmd = ["webtorrent", "-t", path, magnet[choice], "--mpv"]
-        subprocess.call(cmd)
-    elif choicesub == 2:
-        cmd = ["webtorrent",  magnet[choice], "--mpv"]
-        subprocess.call(cmd)
-    elif choicesub == 3:
-        clearconsole()
-        main()
-
+    while choicesub not in (1, 2, 3):
+        print("Wrong choice input")
+        choicesub = int(input("Do you want use subtitle (1) Yes (2) No (3) Select another movie: "))
+        print("\n")
+        if choicesub == 1:
+            path = input("Put the path of subtitle: ")
+            cmd = ["webtorrent", "-t", path, magnet[choice], "--mpv"]
+            subprocess.call(cmd)
+            sys.exit()
+        elif choicesub == 2:
+            cmd = ["webtorrent",  magnet[choice], "--mpv"]
+            subprocess.call(cmd)
+            sys.exit()
+        elif choicesub == 3:
+            clearconsole()
+            main()
 main()
