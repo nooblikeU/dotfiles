@@ -1,0 +1,64 @@
+#!/bin/bash
+
+# initialize array strings
+BACKEND=("colorz" "wal" "haishoku" "colorthief")
+
+# get the highest index of a (the number of elements minus one)
+Na=$((${#BACKEND[@]}-1))
+
+# choose:  
+#    jot -r 1         1 entry, chosen at random from between
+#             0       0 and ...
+#               $Na     ... the highest index of a (inclusive)
+randomnum=$(jot -r 1 0 $Na)
+
+# index the array based on randomnum:
+randomchoice="${BACKEND[$randomnum]}"
+
+# Run script to apply color on Alacritty
+
+ALACOLOR="$HOME/.scripts/alacritty-color-export/script.sh"
+
+if [ $# -eq 0 ]; then
+	wall=$(find $HOME/Pictures -type f | shuf -n 1)
+	if [[ $(file -b $wall | awk '{print $1}') == "JPEG" || $(file -b $wall | awk '{print $1}') == "PNG" || $(file -b $wall | awk '{print $1}') == "RIFF" ]]; then
+		echo "[+] Choosing a random wallpaper..."
+		sleep 0.5
+		echo "[+] Setting up wallpaper..."
+		xwallpaper --zoom "$wall"
+		sleep 0.5
+		echo "[+] Generating pywall color schemes..."
+		sleep 0.5
+		echo "[+] Applying new color..."
+		wal -i $wall >/dev/null 2>&1
+		xdotool key alt+F5
+		sleep 0.5
+		echo "All Done!"
+		exec $ALACOLOR >/dev/null 2>&1
+	else
+		echo "$wall is not image file |" $(file -b $wall)
+	fi
+elif [ $# -eq 1 ]; then
+	case $(file --mime-type $1 -b) in
+		image/*)
+			echo "[+] Choosing $(basename "$1") for wallpaper..."
+			xwallpaper --zoom "$1"
+			sleep 0.5
+			echo "[+] Generating pywal color schemes..."
+			wal -i $1 >/dev/null 2>&1
+			echo "[+] Applying new color..."
+			xdotool key alt+F5
+			sleep 0.5
+			echo "All Done!"
+			exec $ALACOLOR >/dev/null 2>&1
+		;;
+		*)
+			echo "This is not image file"
+		;;
+	esac
+else
+	echo "Select only one image"
+fi
+
+
+

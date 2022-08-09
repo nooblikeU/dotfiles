@@ -1,0 +1,46 @@
+#!/bin/sh
+URL="https://twitch.tv/"
+
+list="/home/john/.local/share/twitch"
+
+user=$(cat $list | sort $list | dmenu -i -l $(cat $list | wc -l) -p "Who you want watch?")
+
+hosting=$(streamlink $URL$user | sed -n 2p | awk '{print $NF}')
+
+error="/usr/share/icons/Adwaita/32x32/status/dialog-error-symbolic.symbolic.png"
+
+
+if [[ $(streamlink $URL$user | sed -n 2p | awk '{print $1}') == "Available" ]]; then
+         notify-send "Online" "Opening $user streams..." -t 5000
+
+        streamlink -p mpv $URL$user best \
+                --twitch-disable-ads \
+                --twitch-low-latency
+
+elif [[ $(streamlink $URL$user | sed -n 2p | awk '{print $4}') == "hosting" ]]; then
+	choices=$(echo -e "No\nYes" | dmenu -i -p "$user is hosting $hosting Do you want watch?")
+
+	if [ "$choices" = "Yes" ]; then
+		notify-send "Online" "Opening $hosting streams.." -t 5000
+
+		streamlink -p mpv $URL$hosting best \
+		--twitch-disable-ads            \
+		--twitch-low-latency
+	else
+		exec twitsh
+	fi
+
+elif [[ $(streamlink $URL$user | sed -n 2p | awk '{print $3}') == "playable" ]]; then
+        notify-send "Offline" "$user is not streaming now" --icon="$error" -t 4500 && exit 1
+
+
+elif [[ $(streamlink $URL) ]]; then
+	exit 1
+
+else
+	notify-send "Error ocurred" -t 3000 && exit 1
+fi
+
+# streamlink -p mpv $URL$user best \
+#	--twitch-disable-ads \
+#	--twitch-low-latency
