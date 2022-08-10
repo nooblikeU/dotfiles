@@ -4,6 +4,7 @@ import subprocess,sys,os
 import magic
 from py1337x import py1337x
 
+
 def clearconsole():
     command = 'clear'
     if os.name in ('nt', 'dos'):
@@ -14,16 +15,20 @@ def main():
     torrent = py1337x()
     movie_name = input("Enter the movie name: ")
     movies = torrent.search(movie_name, category='movies')
+    counting = movies["itemCount"]
     magnet = []
     index = 0
 
-    for i in range(10):
+    for i in range(0, counting):
         print(index,")", movies["items"][i]["name"], "Size:", movies["items"][i]["size"],"Seeders:", movies["items"][i]["seeders"])
         torrentId = movies["items"][i]["torrentId"]
         torrentInfo = torrent.info(torrentId=torrentId)
         index += 1
         magnet.append(torrentInfo['magnetLink'])
 
+    if counting < 1:
+        print("Movies not found please select again")
+        main()
 
     choice = int(input("Enter the index of the movie: "))
 
@@ -31,19 +36,19 @@ def main():
 
     cmd = []
     while choicesub not in (1, 2, 3):
-        print("Wrong choice input")
+        print("Wrong choice input!")
         choicesub = int(input("Do you want use subtitle (1) Yes (2) No (3) Select another movie: "))
-        print("\n")
-        if choicesub == 1:
-            path = input("Put the path of subtitle: ")
-            cmd = ["webtorrent", "-t", path, magnet[choice], "--mpv"]
-            subprocess.call(cmd)
-            sys.exit()
-        elif choicesub == 2:
-            cmd = ["webtorrent",  magnet[choice], "--mpv"]
-            subprocess.call(cmd)
-            sys.exit()
-        elif choicesub == 3:
-            clearconsole()
-            main()
+
+    if choicesub == 1:
+        path = input("Put the path of subtitle: ")
+        cmd = ["webtorrent", "-t", path, magnet[choice], "--mpv"]
+        subprocess.call(cmd)
+        sys.exit()
+    elif choicesub == 2:
+        cmd = ["webtorrent",  magnet[choice], "--mpv"]
+        subprocess.call(cmd)
+        sys.exit()
+    elif choicesub == 3:
+        clearconsole()
+        main()
 main()
