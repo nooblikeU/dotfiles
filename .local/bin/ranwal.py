@@ -13,23 +13,33 @@ def init():
     #res = resolution()
     #ratio = ratios()
     keyword = search()
+    sorting = sort()
     category_code = get_category_code()
     purity_code = get_purity_code()
     global path
-    path = "/home/john/.scripts/image"
+    path = "/home/john/Pictures/NOPLEASE"
     global BASE_URL
-    BASE_URL = f"https://wallhaven.cc/api/v1/search?apikey={API_KEY}"+f"&q={keyword}"+f"&purity={category_code}"+f"&purity={purity_code}"+f"&page=1"
+    BASE_URL = f"https://wallhaven.cc/api/v1/search?&q={keyword}"+f"&apikey={API_KEY}"+f"&purity={category_code}"+f"&purity={purity_code}"+f"&sorting={sorting}"+f"&order=asc"+f"&page=1"
 def search():
     query = input("Put the keyword you want search: ")
     return query
 
+def sort():
+    sort = input("Sort: (tp:toplist dt:data_added ho:hot vi:views ra:random): ").lower()
+
+    while sort not in ('tp', 'dt', 'ho', 'vi', 'ra'):
+        print("Wrong sort input").lower()
+        sort = input("Sort: (tp:toplist dt:data_added ho:hot vi:views ra:random )").lower()
+
+    sort_tags = {'tp': 'toplist', 'dt': 'data_added', 'ho': 'hot', 'vi': 'views', 'ra': 'random'}
+    sort_code = sort_tags[sort]
+    return sort_code
 
 def resolution():
     res = input("Enter resolution: ").lower()
     while res not in ('720p', '1080p', '2160p'):
         print("Wrong resolution input")
         res = input("enter resolution: ").lower()
-        print("\n")
 
     resolution_tags = {'720p': '1280x720', '1080p': '1920x1080', '2160p': '3840x2160'}
     resolution_code = resolution_tags[res]
@@ -40,7 +50,6 @@ def ratios():
     while ratio not in ('16:9', '21:9', 'all'):
         print('Wrong ratio input')
         ratio = input("Enter ratio: ").lower()
-        print('\n')
     ratio_tags = {'16:9': '16x9', '21:9': '21x9', 'all': 'landscape'}
     ratio_code = ratio_tags[ratio]
     return ratio_code
@@ -55,7 +64,7 @@ def get_category_code():
 def get_purity_code():
     purity_tags = {'sfw': '100', 'sketchy': '010', 'nsfw': '001', 'ws': '110', 'wn': '101', 'sn': '011', 'all': '111'}
 
-    purity_code = purity_tags['nsfw']
+    purity_code = purity_tags['sn']
 
     return purity_code
 
@@ -69,9 +78,12 @@ def image_download(url):
     try:
         if r.status_code == 200:
             content = r.content
-            with open(savefile, 'wb') as f:
-                f.write(content)
-            print("Downloading: "+ filename)
+            if not os.path.isfile(savefile):
+                with open(savefile, 'wb') as f:
+                    f.write(content)
+                print("Downloading: "+ filename)
+            else:
+                print(filename, 'already exists skipping download')
         else:
             print("Failed to download ",filename , r.status_code)
             return None
@@ -102,11 +114,11 @@ def main():
    #     image_download(imgs)
         
         
-        with ThreadPoolExecutor(50) as t:
+        with ThreadPoolExecutor(max_workers=5) as t:
             for i in range(len(wall)):
                 img = wall[i]["path"]
                 t.submit(image_download, url=img)
-                time.sleep(1)
+                #time.sleep(1)
                 #image.append(wall["data"][i]["path"])
                 #print(image)
 
