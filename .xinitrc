@@ -48,6 +48,9 @@
 # unset f
 #fi
 
+#.xprofile
+[ -f /etc/xprofile ] && . /etc/xprofile
+[ -f ~/.xprofile ] && . ~/.xprofile
 
 #monitor
 xrandr --output DP-2 --mode 1920x1080 --rate 144 --output HDMI-0 --off
