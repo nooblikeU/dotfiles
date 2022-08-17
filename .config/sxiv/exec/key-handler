@@ -9,6 +9,10 @@ do
 	"d")
 		rm -rf $file
 	;;
+    "u")
+		 waifu2x-ncnn-vulkan -i $file -n 3 -s 4 -o /home/john/Pictures/$(date +"%FT%H%M")-upscaled.png
+		 notify-send -t 4000 "Upscales completed!"
+    ;;
 
 	esac
 done
