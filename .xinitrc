@@ -7,6 +7,8 @@
 #fcitx
 fcitx -d &
 
+nvidia-settings --assign CurrentMetaMode="DP-2: nvidia-auto-select +0+0 {ForceCompositionPipeline=On}"
+
 #monitor
 xrandr --output DP-2 --mode 1920x1080 --rate 144 --output HDMI-0 --off
 
