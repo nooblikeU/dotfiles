@@ -7,9 +7,8 @@
 #fcitx
 fcitx -d &
 
-nvidia-settings --assign CurrentMetaMode="DP-4: nvidia-auto-select +0+0 {ForceCompositionPipeline=On}"
-
 #monitor
+nvidia-settings --assign CurrentMetaMode="DP-4: nvidia-auto-select +0+0 {ForceCompositionPipeline=On}"
 xrandr --output DP-4 --mode 1920x1080 --rate 144 --output HDMI-0 --off
 
 #dwmblocks
