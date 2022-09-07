@@ -1,6 +1,4 @@
-#!/bin/sh
-
-package="adobe-source-sans-fonts
+adobe-source-sans-fonts
 alacritty
 alass-git
 alsa-plugins
@@ -160,6 +158,4 @@ zsh-autosuggestions
 zsh-completions
 zsh-history-substring-search
 zsh-syntax-highlighting
-zsh-you-should-use"
-
-pacman -S --noconfirm $package 
+zsh-you-should-use
