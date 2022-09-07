@@ -32,15 +32,15 @@ cp ~/.dotfiles/.zshrc $HOME
 
 #part5
 
-sudo cp ~/.dotfiles/.scripts/dwmblocks_scripts/. /usr/local/sbin
+sudo cp ~/.dotfiles/.scripts/dwmblocks_scripts/* /usr/local/sbin
 
-git clone https://github.com/nooblikeU/dwm.git ~/.src
+git clone https://github.com/nooblikeU/dwm.git
 sudo make -C ~/.src/dwm clean install
 
-git clone https://github.com/nooblikeU/dmenu.git ~/.src
+git clone https://github.com/nooblikeU/dmenu.git
 sudo make -C ~/.src/dmenu clean install
 
-git clone https://github.com/nooblikeU/dwmblocks.git ~/.src
+git clone https://github.com/nooblikeU/dwmblocks.git
 sudo make -C ~/.src/dwmblocks clean install
 
 #part6
