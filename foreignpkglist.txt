@@ -3,8 +3,6 @@ athena-jot
 dragon-drop
 ly
 mangohud
-nordvpn-bin
-paru
 picom-jonaburg-git
 pokemon-colorscripts-git
 pup
