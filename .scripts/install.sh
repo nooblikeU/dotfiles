@@ -10,10 +10,10 @@ rm -rf fonts
 cd ~/.dotfiles/fonts
 cp "Hack Regular Nerd Font Complete.ttf" /usr/share/fonts
 cd ~/.dotfiles
-pacman -S --needed -noconfirm $(comm -12 <(pacman -Slq | sort) <(sort pkglist.txt))
+pacman -S --needed -y $(comm -12 <(pacman -Slq | sort) <(sort pkglist.txt))
 
 #part2
-sudo pacman -S --needed --noconfirm base-devel
+sudo pacman -S --needed -y base-devel
 cd ~/.src
 git clone https://aur.archlinux.org/paru.git
 cd paru
@@ -21,8 +21,8 @@ chmod 777 .
 makepkg -si
 
 #part3
-cd ~/.dotfiles
-paru -S --needed --noconfirm - < foreignpkglist.txt
+#cd ~/.dotfiles
+#paru -S --needed --noconfirm - < foreignpkglist.txt
 
 #part4 
 cd ~/.src
