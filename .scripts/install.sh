@@ -7,7 +7,6 @@ git clone https://github.com/nooblikeU/dotfiles.git
 mv dotfiles .dotfiles
 cp -r .dotfiles/. $HOME
 rm -rf fonts
-cp -r nvim ~/.local/share/
 cd ~/.dotfiles/fonts
 cp "Hack Regular Nerd Font Complete.ttf" /usr/share/fonts
 cd ~/.dotfiles
