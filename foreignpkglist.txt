@@ -1,8 +1,6 @@
 alass-git
 athena-jot
 dragon-drop
-dxvk-bin
-fluent-reader
 ly
 mangohud
 nordvpn-bin
@@ -13,7 +11,5 @@ pup
 python-pywalfox
 rpcs3-bin
 steamtinkerlaunch
-waifu2x-caffe
-yay
 ytfzf
 zsh-you-should-use
