@@ -24,24 +24,28 @@ makepkg -si
 cd ~/.dotfiles
 paru -S --needed --noconfirm - < foreignpkglist.txt
 
-#part4 
+#part4
+
+sudo cp ~/.dotfiles/.scripts/dwmblocks_scripts/* /usr/local/sbin
+
+cd ~/.src
+git clone https://github.com/nooblikeU/dwm.git
+cd dwm && sudo make clean install
+
+cd ~/.src
+git clone https://github.com/nooblikeU/dmenu.git
+cd dmenu && sudo make clean install
+
+cd ~/.src
+git clone https://github.com/nooblikeU/dwmblocks.git
+cd dwmblocks && sudo make clean install
+
+#part5 
 cd ~/.src
 chsh -s /bin/zsh john
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 cp ~/.dotfiles/.zshrc $HOME
 
-#part5
-
-sudo cp ~/.dotfiles/.scripts/dwmblocks_scripts/* /usr/local/sbin
-
-git clone https://github.com/nooblikeU/dwm.git
-sudo make -C ~/.src/dwm clean install
-
-git clone https://github.com/nooblikeU/dmenu.git
-sudo make -C ~/.src/dmenu clean install
-
-git clone https://github.com/nooblikeU/dwmblocks.git
-sudo make -C ~/.src/dwmblocks clean install
 
 #part6
 systemctl enable ly.service
