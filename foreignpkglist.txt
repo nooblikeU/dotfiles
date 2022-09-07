@@ -5,7 +5,6 @@ dxvk-bin
 fluent-reader
 ly
 mangohud
-mesa-git
 nordvpn-bin
 paru
 picom-jonaburg-git
