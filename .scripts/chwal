@@ -17,7 +17,7 @@ randomchoice="${BACKEND[$randomnum]}"
 
 # Run script to apply color on Alacritty
 
-ALACOLOR="$HOME/.scripts/alacritty-color-export/script.sh"
+ALACOLOR="$HOME/.scripts/alacritty_color_export/script.sh"
 
 if [ $# -eq 0 ]; then
 	wall=$(find $HOME/Pictures -type f | shuf -n 1)
