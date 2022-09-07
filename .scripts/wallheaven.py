@@ -9,15 +9,17 @@ API_KEY = "FmchmmLXApTNJc9OeelPtGQ9NLmUkoac"
 
 
 def init():
+    keyword = search()
     res = resolution()
     ratio = ratios()
-    keyword = search()
     category_code = get_category_code()
     purity_code = get_purity_code()
+    #topRange = toprange()
+    sorting = sort()
     global path
     path = "/home/john/Pictures"
     global BASE_URL
-    BASE_URL = f"https://wallhaven.cc/api/v1/search?apikey={API_KEY}"+f"&q={keyword}"+f"&purity={category_code}"+f"&purity={purity_code}"+f"&atleast={res}"+f"&ratios={ratio}"+f"&sorting=random"+f"&page=1"
+    BASE_URL = f"https://wallhaven.cc/api/v1/search?apikey={API_KEY}"+f"&q={keyword}"+f"&purity={category_code}"+f"&purity={purity_code}"+f"&atleast={res}"+f"&ratios={ratio}"+f"&sorting={sorting}"+f"&page=1"
 def search():
     query = input("Put the keyword you want search: ")
     return query
@@ -25,36 +27,68 @@ def search():
 
 def resolution():
     res = input("Enter resolution: ").lower()
-    while res not in ('720p', '1080p', '2160p'):
+    while res not in ('720', '1080', '2160'):
         print("Wrong resolution input")
-        res = input("enter resolution: ").lower()
+        res = input("Enter resolution: ").lower()
 
-    resolution_tags = {'720p': '1280x720', '1080p': '1920x1080', '2160p': '3840x2160'}
+    resolution_tags = {'720': '1280x720', '1080': '1920x1080', '2160': '3840x2160'}
     resolution_code = resolution_tags[res]
     return resolution_code
 
 def ratios():
     ratio = input("Enter ratio: ").lower()
-    while ratio not in ('16:9', '21:9', 'all'):
+    while ratio not in ('16x9', '21x9', 'all'):
         print('Wrong ratio input')
         ratio = input("Enter ratio: ").lower()
-    ratio_tags = {'16:9': '16x9', '21:9': '21x9', 'all': 'landscape'}
+    ratio_tags = {'16x9': '16x9', '21x9': '21x9', 'all': 'landscape'}
     ratio_code = ratio_tags[ratio]
     return ratio_code
 
 def get_category_code():
+    category = input("Enter category name (all, anime, general, people, ga, gp): ").lower()
+    while category not in ('all', 'anime', 'general', 'people', 'ga', 'gp'):
+        print('Wrong category input')
+        category = input("Enter category name (all, anime, general, people, ga, gp): ").lower()
     category_tags = {'all': '111', 'anime': '010', 'general': '100', 'people': '001', 'ga': '110', 'gp': '101'}
 
-    category_code = category_tags['anime']
+    category_code = category_tags[category]
 
     return category_code
 
 def get_purity_code():
+    purity = input("Enter purity name (sfw, sketchy, nsfw, ws, wn, sn, all): ")
+    while purity not in ('sfw', 'sketchy', 'nsfw', 'ws', 'wn', 'sn', 'all'):
+        print("Wrong purity input")
+        purity_tags = {'sfw': '100', 'sketchy': '010', 'nsfw': '001', 'ws': '110', 'wn': '101', 'sn': '011', 'all': '111'}
+
     purity_tags = {'sfw': '100', 'sketchy': '010', 'nsfw': '001', 'ws': '110', 'wn': '101', 'sn': '011', 'all': '111'}
 
-    purity_code = purity_tags['ws']
+    purity_code = purity_tags[purity]
 
     return purity_code
+
+def sort():
+    sort = input("Sort: (tp:toplist dt:data_added ho:hot vi:views ra:random re:relevance): ").lower()
+
+    while sort not in ('tp', 'dt', 'ho', 'vi', 'ra', 're'):
+        print("Wrong sort input")
+        sort = input("Sort: (tp:toplist dt:data_added ho:hot vi:views ra:random re:relevance): ").lower
+
+    sort_tags = {'tp': 'toplist', 'dt': 'data_added', 'ho': 'hot', 'vi': 'views', 'ra': 'random', 're': 'relevance'}
+    sort_code = sort_tags[sort]
+    return sort_code
+
+def toprange():
+    toprange = input("Enter toprange (1d, 3d, 1w, 1M, 3M, 6M, 1y): ").lower()
+
+    while toprange not in ('1d', '3d', '1w', '1M', '3M', '6M', '1y'):
+        print("Wrong toprange input")
+        toprange = input("Enter toprange (1d, 3d, 1w, 1M, 3M, 6M, 1y): ").lower()
+
+    toprange_tags = {'1d': '1d', '3d': '3d', '1w': '1w', '1M': '1m', '3M': '3m', '6M': '6m', '1y': '1y'}
+
+    toprange_code = toprange_tags[toprange]
+    return toprange_code
 
 def image_download(url):
     r = requests.get(url)

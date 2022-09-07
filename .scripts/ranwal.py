@@ -13,25 +13,25 @@ def init():
     #res = resolution()
     #ratio = ratios()
     keyword = search()
-    sorting = sort()
     category_code = get_category_code()
     purity_code = get_purity_code()
+    sorting = sort()
     global path
-    path = "/home/john/Pictures/NOPLEASE"
+    path = "/home/john/Pictures"
     global BASE_URL
-    BASE_URL = f"https://wallhaven.cc/api/v1/search?&q={keyword}"+f"&apikey={API_KEY}"+f"&purity={category_code}"+f"&purity={purity_code}"+f"&sorting={sorting}"+f"&order=asc"+f"&page=1"
+    BASE_URL = f"https://wallhaven.cc/api/v1/search?&q={keyword}"+f"&apikey={API_KEY}"+f"&purity={category_code}"+f"&purity={purity_code}"+f"&sorting={sorting}"+f"&page=1"
 def search():
     query = input("Put the keyword you want search: ")
     return query
 
 def sort():
-    sort = input("Sort: (tp:toplist dt:data_added ho:hot vi:views ra:random): ").lower()
+    sort = input("Sort: (tp:toplist dt:data_added ho:hot vi:views ra:random re:relevance): ").lower()
 
-    while sort not in ('tp', 'dt', 'ho', 'vi', 'ra'):
-        print("Wrong sort input").lower()
-        sort = input("Sort: (tp:toplist dt:data_added ho:hot vi:views ra:random )").lower()
+    while sort not in ('tp', 'dt', 'ho', 'vi', 'ra', 're'):
+        print("Wrong sort input")
+        sort = input("Sort: (tp:toplist dt:data_added ho:hot vi:views ra:random re:relevance )").lower()
 
-    sort_tags = {'tp': 'toplist', 'dt': 'data_added', 'ho': 'hot', 'vi': 'views', 'ra': 'random'}
+    sort_tags = {'tp': 'toplist', 'dt': 'data_added', 'ho': 'hot', 'vi': 'views', 'ra': 'random', 're': 'relevance'}
     sort_code = sort_tags[sort]
     return sort_code
 
@@ -55,16 +55,25 @@ def ratios():
     return ratio_code
 
 def get_category_code():
+    category = input('Enter category name (all, anime, general, people, ga, gp): ').lower()
+    while category not in('all', 'anime', 'general', 'people', 'ga', 'gp'):
+        print("Wrong category input")
+        category = input('Enter category name (all, anime, general, people, ga, gp): ').lower()
+
     category_tags = {'all': '111', 'anime': '010', 'general': '100', 'people': '001', 'ga': '110', 'gp': '101'}
 
-    category_code = category_tags['anime']
+    category_code = category_tags[category]
 
     return category_code
 
 def get_purity_code():
+    purity = input('Enter purity name (sfw, sketchy, nsfw, ws, wn, sn, all): ').lower()
+    while purity not in ('sfw', 'sketchy', 'nsfw', 'ws', 'wn', 'sn', 'all'):
+        print("Wrong purity input")
+        purity = input('Enter purity name (sfw, sketchy, nsfw, ws, wn, sn, all): ')
     purity_tags = {'sfw': '100', 'sketchy': '010', 'nsfw': '001', 'ws': '110', 'wn': '101', 'sn': '011', 'all': '111'}
 
-    purity_code = purity_tags['sn']
+    purity_code = purity_tags[purity]
 
     return purity_code
 

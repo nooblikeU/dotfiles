@@ -5,10 +5,11 @@ cd $HOME
 mkdir .src
 git clone https://github.com/nooblikeU/dotfiles.git
 mv dotfiles .dotfiles
-cp -r .dotfiles/. ~/$HOME
-rm -rf fonts 
+cp -r .dotfiles/. $HOME
+rm -rf fonts
+cp -r nvim ~/.local/share/
 cd ~/.dotfiles/fonts
-cp "Hack Regular Nerd Font Complete.ttf" ~/.local/share/fonts
+cp "Hack Regular Nerd Font Complete.ttf" /usr/share/fonts
 cd ~/.dotfiles
 pacman -S --needed -noconfirm $(comm -12 <(pacman -Slq | sort) <(sort pkglist.txt))
 
@@ -28,6 +29,7 @@ paru -S --needed --noconfirm - < foreignpkglist.txt
 cd ~/.src
 chsh -s /bin/zsh john
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+cp ~/.dotfiles/.zshrc $HOME
 
 #part5
 
@@ -44,7 +46,4 @@ sudo make -C ~/.src/dwmblocks clean install
 
 #part6
 systemctl enable ly.service
-systemctl start ly.service
-
-exit
 
