@@ -29,7 +29,6 @@ file
 findutils
 firefox
 flex
-fluent-reader
 font-manager
 fuse2
 fzf
@@ -131,7 +130,6 @@ unzip
 veracrypt
 vim
 virt-manager
-waifu2x-caffe
 waifu2x-ncnn-vulkan
 wget
 which
@@ -149,7 +147,6 @@ xorg-xinit
 xorg-xinput
 xorg-xsetroot
 xwallpaper
-yay
 yt-dlp
 ytfzf
 zram-generator

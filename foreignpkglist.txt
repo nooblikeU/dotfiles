@@ -1,8 +1,12 @@
 alass-git
 athena-jot
 dragon-drop
+dxvk-bin
 ly
 mangohud
+mesa-git
+nordvpn-bin
+paru
 picom-jonaburg-git
 pokemon-colorscripts-git
 pup
