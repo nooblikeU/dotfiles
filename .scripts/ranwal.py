@@ -6,7 +6,7 @@ import time
 from requests import ReadTimeout
 from concurrent.futures import ThreadPoolExecutor
 
-API_KEY = "FmchmmLXApTNJc9OeelPtGQ9NLmUkoac"
+API_KEY = ""
 
 
 def init():
