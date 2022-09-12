@@ -3,8 +3,6 @@ athena-jot
 dragon-drop
 ds4drv-git
 dxvk-bin
-linux519-tkg-bmq
-linux519-tkg-bmq-headers
 ly
 mangohud
 mesa-git
@@ -17,5 +15,6 @@ python-pywalfox
 rpcs3-bin
 steamtinkerlaunch
 tor-browser
+ventoy-bin
 ytfzf
 zsh-you-should-use
