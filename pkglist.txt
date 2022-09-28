@@ -81,6 +81,7 @@ nano
 neofetch
 neovim
 newsboat
+nordvpn-bin
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -94,7 +95,6 @@ os-prober
 pacman
 paru
 patch
-pcsx2
 pkgconf
 pulseaudio
 pulsemixer
@@ -112,8 +112,10 @@ swtpm
 sxhkd
 sxiv
 texinfo
+tor-browser
 tree
 ttf-joypixels
+ueberzug
 unrar
 unzip
 veracrypt
@@ -135,6 +137,8 @@ xorg-xinput
 xorg-xsetroot
 xwallpaper
 yt-dlp
+zathura
+zathura-pdf-mupdf
 zram-generator
 zsh
 zsh-autosuggestions

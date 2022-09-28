@@ -1,3 +1,5 @@
 ly
+nordvpn-bin
 paru
+tor-browser
 zsh-you-should-use
