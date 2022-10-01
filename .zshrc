@@ -108,6 +108,9 @@ rpath(){
   file="$(find -type f | fzf)"
   readlink -f $file | xargs echo -n | xclip -selection clipboard
 }
+sc(){
+	 maim --select | tee /home/john/Pictures/ss/$(date +%s).png | xclip -selection clipboard -t imag/png
+}
 alias piup="pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U"
 alias getp="find -type f | fzf | sed 's/^..//' | tr -d '\n' | xclip -selection c"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
