@@ -33,6 +33,9 @@ sxhkd &
 #Notification
 dunst &
 
+#Denoise
+rnnoise activate & 
+
 #loop dwm
 
 #while true;do
