@@ -137,6 +137,7 @@ xorg-xinput
 xorg-xsetroot
 xwallpaper
 yt-dlp
+ytfzf
 zathura
 zathura-pdf-mupdf
 zram-generator
