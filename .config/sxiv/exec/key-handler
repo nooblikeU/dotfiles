@@ -12,6 +12,9 @@ do
     "u")
 		 waifu2x-ncnn-vulkan -i $file -o /home/john/Pictures/$(date +"%FT%H%M")-upscaled.png -n 3 -s 4
 		 notify-send -t 4000 "Upscales completed!"
+	 ;;
+	 "t")
+		  dragon-drop $file
     ;;
 
 	esac
