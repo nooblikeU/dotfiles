@@ -3,3 +3,18 @@ super + p
 
 super + t 
 	twitsh
+
+super + s
+	 sc
+
+super + KP_Add
+	 vol up
+
+super + KP_Subtract
+	 vol down
+
+super + m
+	 vol toggle
+
+super + d
+	 vol default

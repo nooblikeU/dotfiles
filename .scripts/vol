@@ -1,0 +1,19 @@
+#!/bin/sh
+
+UP="+15"
+DOWN="-15"
+DEF="100"
+
+case "$1" in 
+	toggle) pulsemixer --id sink-0 --toggle-mute 
+	;;
+	up ) pulsemixer --id sink-0 --change-volume $UP 
+	     pulsemixer --id sink-0 --get-volume | awk '{print $1}'
+	;; 
+	down ) pulsemixer --id sink-0 --change-volume $DOWN 
+	       pulsemixer --id sink-0 --get-volume | awk '{print $1}'
+	;;
+        default ) pulsemixer --id sink-0 --set-volume $DEF
+	          pulsemixer --id sink-0 --get-volume | awk '{print $1}'
+	;;	
+esac

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+vol="$(pulsemixer --id sink-0 --get-volume | awk '{print $1}')"
+
+if [ $(pulsemixer --id sink-0 --get-mute) == "1" ]; then
+	echo -e "婢"
+else
+	echo -e "墳 $vol%"
+fi
+
