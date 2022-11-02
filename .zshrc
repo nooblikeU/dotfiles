@@ -108,10 +108,15 @@ rpath(){
   file="$(find -type f | fzf)"
   readlink -f $file | xargs echo -n | xclip -selection clipboard
 }
-sc(){
-	 maim --select | tee /home/john/Pictures/ss/$(date +%s).png | xclip -selection clipboard -t imag/png
-}
-alias piup="pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U"
+#sc(){
+#	 sc="$HOME/ss/"
+#
+#	 name="$(date +%s).png"
+#
+#	 maim --select | tee $sc$name | xclip -selection clipboard -t image/png
+#	 notify-send "Screenshot saved on" "$sc$name" -t 4500
+#}
+alias piup="pip list --outdated | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U"
 alias getp="find -type f | fzf | sed 's/^..//' | tr -d '\n' | xclip -selection c"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias v='nvim'
@@ -129,3 +134,4 @@ source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
 # history substring search options
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+eval "$(pyenv init -)"
