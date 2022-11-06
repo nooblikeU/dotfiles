@@ -134,4 +134,3 @@ source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh
 # history substring search options
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
-eval "$(pyenv init -)"
