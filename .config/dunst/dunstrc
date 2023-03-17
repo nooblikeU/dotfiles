@@ -27,7 +27,7 @@
     width = 400
 
     # The maximum height of a single notification, excluding the frame.
-    height = 300
+   height = 300
 
     # Position the notification in the top right corner
     origin = top-right
@@ -77,13 +77,13 @@
     separator_height = 2
 
     # Padding between text and separator.
-    padding = 8
+    padding = 12
 
     # Horizontal padding.
-    horizontal_padding = 8
+    horizontal_padding = 14
 
     # Padding between text and icon.
-    text_icon_padding = 0
+    text_icon_padding = 20
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
@@ -212,7 +212,7 @@
     max_icon_size = 32
 
     # Paths to default icons (only neccesary when not using recursive icon lookup)
-    icon_path = /usr/share/icons/Adwaita/32x32/status
+    icon_path = /home/john/.local/share/icons/icon 
 
     ### History ###
 
@@ -315,11 +315,12 @@
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#6077e7"
-    foreground = "#ffffff"
+    background = "#0b3ea6"
+    foreground = "#FFFFFF"
     timeout = 10
+	#new_icon = bell3.png
     # Icon for notifications with normal urgency, uncomment to enable
-    #default_icon = /path/to/icon
+    default_icon = /home/john/.local/share/icons/icon/bell4.png
 
 [urgency_critical]
     background = "#900000"
