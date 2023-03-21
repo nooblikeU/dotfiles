@@ -46,7 +46,7 @@ element-text {
     text-color:       inherit;
 }
 element-icon{
-    size: 14;
+    size: 18;
 	padding: 0 10 0 0;
 	background-color: transparent;
 }
