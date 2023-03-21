@@ -2,7 +2,7 @@ configuration {
   display-drun: "Applications";
   display-window: "Windows";
   drun-display-format: "{name}";
-  font: "Hack Nerd Font 10";
+  font: "Hack Nerd Font 12";
   modi: "window,run,drun";
   show-icons: true;
   icon-theme: "Papirus";
@@ -14,6 +14,7 @@ configuration {
 
 
 window {
+    width: 30%; 
     background-color: @background;
     border:           1;
     padding:          5;
@@ -38,11 +39,16 @@ listview {
 }
 element {
     border:  0;
-    padding: 1px ;
+    padding: 8 12 ;
 }
 element-text {
     background-color: inherit;
     text-color:       inherit;
+}
+element-icon{
+    size: 14;
+	padding: 0 10 0 0;
+	background-color: transparent;
 }
 element.normal.normal {
     background-color: @normal-background;
