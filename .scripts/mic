@@ -1,0 +1,22 @@
+#!/bin/sh
+
+DEF="45"
+MIC_VOL=$(pulsemixer --id source-1 --get-volume | awk '{print $1}')
+MUTED=$(pulsemixer --id source-1 --get-mute)
+
+case "$1" in
+	 toggle ) pulsemixer --id source-1 --toggle-mute
+	 ;; 
+esac
+
+if [[ "$MUTED" == "1" ]]; then
+	 echo "muted"
+elif [[ "$MUTED" == "0" ]]; then
+     echo "$MIC_VOL%"
+fi
+
+if [[ "$MIC_VOL" -gt "$DEF" ]]; then
+	 pulsemixer --id source-1 --set-volume $DEF
+fi
+
+

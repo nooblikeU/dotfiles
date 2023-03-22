@@ -1,20 +1,23 @@
-super + p
+super + ctrl + p
 	 sxiv -t ~/Pictures
 
 super + t 
 	twitsh
 
-super + s
+super + ctrl + s
 	 sc
 
-super + KP_Add
+super + ctrl + KP_Add
 	 vol up
 
-super + KP_Subtract
+super + ctrl + KP_Subtract
 	 vol down
 
-super + m
+super + ctrl + m
 	 vol toggle
 
-super + d
+super + ctrl + d
 	 vol default
+
+super + alt + m
+	 mic toggle >/dev/null
