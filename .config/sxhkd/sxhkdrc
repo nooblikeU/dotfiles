@@ -1,5 +1,5 @@
 super + ctrl + p
-	 sxiv -t ~/Pictures
+	 upimg
 
 super + t 
 	twitsh
@@ -20,4 +20,4 @@ super + ctrl + d
 	 vol default
 
 super + alt + m
-	 mic toggle >/dev/null
+	 pulsemixer --id source-1 --toggle-mute

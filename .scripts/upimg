@@ -1,0 +1,8 @@
+#!/bin/sh 
+
+set -e
+
+img=$(find $HOME/Pictures -type f | rofi -dmenu -theme "~/.config/rofi/dmenu.rasi")
+
+curl -F "file=@$img" 0x0.st | xclip -sel c || exit 1
+notify-send -t 2000 "Done" "Uploaded & copied to clip board!"
