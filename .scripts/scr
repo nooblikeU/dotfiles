@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+sc="$HOME/.ss/"
+
+name="$(date +%s).png"
+
+scrot -s $sc$name -e 'xclip -sel c -t image/png -i $f' || exit 1
+notify-send "Screenshot saved on" "$sc$name" -t 4500
