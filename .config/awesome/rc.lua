@@ -354,7 +354,7 @@ awful.rules.rules = {
                      keys = clientkeys,
                      buttons = clientbuttons,
                      screen = awful.screen.preferred,
-                     placement = awful.placement.no_overlap+awful.placement.no_offscreen
+                     placement = awful.placement.centered+awful.placement.no_overlap+awful.placement.no_offscreen
      }
     },
 
@@ -385,21 +385,21 @@ awful.rules.rules = {
           "Gpick",
           "Kruler",
           "MessageWin",  -- kalarm.
-          -- "Sxiv",
-          "Tor Browser", -- Needs a fixed window size to avoid fingerprinting by screen size.
+          "Sxiv",
+          "Tor Browser",
+		  "mpv",-- Needs a fixed window size to avoid fingerprinting by screen size.
           "Wpa_gui",
           "veromix",
           "xtightvncviewer"},
 
-  -- Spawn floating clients centered
-    { rule_any = {
-        class = "Sxiv",
-		name = "sxiv"        
-    }, properties = {
-            placement = awful.placement.centered + awful.placement.no_overlap+awful.placement.no_offscreen
-        }
-    },
-
+ --  Spawn floating clients centered
+      { rule_any = {
+          floating = true     
+      }, properties = {
+              placement = awful.placement.centered + awful.placement.no_overlap
+          }
+      },
+  
         -- Note that the name property shown in xprop might be set slightly after creation of the client
         -- and the name shown there might not match defined rules here.
         name = {
@@ -424,13 +424,14 @@ awful.rules.rules = {
 -- }}}
 
 -- {{{ Signals
-client.connect_signal("property::floating", function(c)
-    if c.floating then
-        c.ontop = true
-    else
-        c.ontop = false
-    end
-end)
+-- Floating window on top
+-- client.connect_signal("property::floating", function(c)
+--     if c.floating then
+--         c.ontop = true
+--     else
+--         c.ontop = false
+--     end
+-- end)
 -- Signal function to execute when a new client appears.
 client.connect_signal("manage", function (c)
     -- Set the windows at the slave,
@@ -501,10 +502,9 @@ awful.spawn.with_shell("fcitx -d")
 awful.spawn.with_shell("xrandr --output DP-4 --mode 1920x1080 --rate 144 --output HDMI-0 --off")
 awful.spawn.with_shell("wal -R")
 -- awful.spawn.with_shell(img$=(cat /home/john/.cache/wal/wal))
+awful.spawn("picom -b --experimental-backends --config /home/john/.config/picom/picom.conf")
+awful.spawn.with_shell("killall sxhkd; sxhkd")
+awful.spawn.with_shell("killall dunst; dunst")
 awful.spawn.with_shell("xwallpaper --zoom $img")
-awful.spawn.with_shell("picom -b --experimental-backends --config /home/john/.config/picom/picom.conf")
-awful.spawn.with_shell("sxhkd")
-awful.spawn.with_shell("dunst")
 awful.spawn.with_shell("/home/john/.config/polybar/launch.sh")
-
 -- Xresources
