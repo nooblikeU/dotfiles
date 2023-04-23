@@ -227,7 +227,9 @@ globalkeys = gears.table.join(
 
     -- Menubar
     awful.key({ modkey }, "r", function() menubar.show() end,
-              {description = "show the menubar", group = "launcher"})
+              {description = "show the menubar", group = "launcher"}),
+	 -- Floating window centered
+    awful.key({ modkey, "Shift"   }, "y", awful.placement.centered)
 )
 
 clientkeys = gears.table.join(
@@ -386,6 +388,7 @@ awful.rules.rules = {
           "Kruler",
           "MessageWin",  -- kalarm.
           "Sxiv",
+		  "Dragon-drop",
           "Tor Browser",
 		  "mpv",-- Needs a fixed window size to avoid fingerprinting by screen size.
           "Wpa_gui",
@@ -502,9 +505,9 @@ awful.spawn.with_shell("fcitx -d")
 awful.spawn.with_shell("xrandr --output DP-4 --mode 1920x1080 --rate 144 --output HDMI-0 --off")
 awful.spawn.with_shell("wal -R")
 -- awful.spawn.with_shell(img$=(cat /home/john/.cache/wal/wal))
-awful.spawn("picom -b --experimental-backends --config /home/john/.config/picom/picom.conf")
-awful.spawn.with_shell("killall sxhkd; sxhkd")
-awful.spawn.with_shell("killall dunst; dunst")
+awful.spawn("picom --config /home/john/.config/picom/picom.conf")
+awful.spawn.with_shell("pkill sxhkd; sxhkd")
+awful.spawn.with_shell("pkill dunst; dunst")
 awful.spawn.with_shell("xwallpaper --zoom $img")
-awful.spawn.with_shell("/home/john/.config/polybar/launch.sh")
--- Xresources
+awful.spawn.with_shell("bash -c '/home/john/.config/polybar/launch.sh'")
+awful.spawn.with_shell("bash -c '/home/john/.config/polybar/checkfullscreen.sh'")
