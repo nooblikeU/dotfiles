@@ -1,0 +1,10 @@
+#!/bin/sh
+
+project_dir="$HOME/.dotfiles"
+
+ts=$(date +%s)
+
+git -C $project_dir add .
+git -C $project_dir commit -m "auto commit - $ts"
+git -C $project_dir push origin main
+
