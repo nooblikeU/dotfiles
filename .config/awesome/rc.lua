@@ -123,6 +123,8 @@ screen.connect_signal("property::geometry", set_wallpaper)
 awful.screen.connect_for_each_screen(function(s)
     -- Wallpaper
     set_wallpaper(s)
+	 -- 32 is my bar height change it to whatever you like.
+    awful.screen.padding(s, {top = 32})
 
     -- Each screen has its own tag table.
     awful.tag({ "1", "2", "3", "4", "5" }, s, awful.layout.layouts[1])
@@ -356,7 +358,7 @@ awful.rules.rules = {
                      keys = clientkeys,
                      buttons = clientbuttons,
                      screen = awful.screen.preferred,
-                     placement = awful.placement.centered+awful.placement.no_overlap+awful.placement.no_offscreen
+                     placement = awful.placement.centered + awful.placement.no_overlap + awful.placement.no_offscreen
      }
     },
 
@@ -440,6 +442,9 @@ client.connect_signal("manage", function (c)
     -- Set the windows at the slave,
     -- i.e. put it at the end of others instead of setting it master.
     -- if not awesome.startup then awful.client.setslave(c) end
+	 if client.floating and context == "new" then
+		  client.placement = awful.placement.centered + awful.placement.no_overlap
+	 end
 
     if awesome.startup
       and not c.size_hints.user_position
@@ -509,5 +514,5 @@ awful.spawn("picom --config /home/john/.config/picom/picom.conf")
 awful.spawn.with_shell("pkill sxhkd; sxhkd")
 awful.spawn.with_shell("pkill dunst; dunst")
 awful.spawn.with_shell("xwallpaper --zoom $img")
-awful.spawn.with_shell("bash -c '/home/john/.config/polybar/launch.sh'")
-awful.spawn.with_shell("bash -c '/home/john/.config/polybar/checkfullscreen.sh'")
+awful.spawn.with_shell("sh '/home/john/.config/polybar/launch.sh'")
+awful.spawn.with_shell("pkill checkfullscreen.sh; bash -c '/home/john/.config/polybar/checkfullscreen.sh'")
